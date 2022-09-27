@@ -1,0 +1,21 @@
+  navbar:
+    title: "河口研究室@CiRA"
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Members"
+        href: members.html
+      - text: "Project"
+        href: project.html
+      - text: "Publication" 
+        href: publication.html
+      - text: "Software"
+        href: software.html
+      - text: "Link"
+        href: link.html
+      - text: "ENGLISH"
+        menu:
+        - text: "Home"
+          href: index_en.html 
+        - text: "Members"
+          href: members_en.html

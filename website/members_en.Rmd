@@ -1,0 +1,37 @@
+---
+title: ""
+ink-citations: yes
+output: 
+  html_document:
+   theme:
+    bootswatch: sandstone 
+github-repo: carushi/bioinfo_tutorial_collection
+---
+# Members {.row}
+##  {.col-md-8}
+
+### Risa K Kawaguchi (Ph.D)
+- [Personal Website](https://sites.google.com/site/cawatchm/)
+- [Google scholar]("https://scholar.google.com/citations?user=BLtM6hoAAAAJh")
+- [carushi@github](https://github.com/carushi)
+- [Twitter](https://twitter.com/can_pyong)
+
+```{r, echo=FALSE}
+eval("Risa ~ curiosity + computer + biology + patience + 0.1 carelessness")
+```
+
+### Staffs
+
+- Jane Doe
+
+### Students
+
+- Jane Doe
+
+### Alumni
+
+- Jane Doe
+
+## {.col-md-4 }
+
+![](figures/members/kawaguchi.jpeg)

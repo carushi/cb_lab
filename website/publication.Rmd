@@ -1,0 +1,25 @@
+---
+title: "Publication"
+
+output: 
+  html_document:
+   toc: true
+   toc_float: true
+   theme:
+    bootswatch: sandstone 
+   toc_depth: 3
+github-repo: carushi/bioinfo_tutorial_collection
+---
+
+
+
+### 査読付き論文
+
+### 総説
+
+
+### 書籍
+
+### 口頭発表
+
+
