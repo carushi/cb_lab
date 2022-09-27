@@ -1,2 +1,2 @@
-# bioinfo_tutorial_collection
+# Computational Biology Lab
 Under construction
