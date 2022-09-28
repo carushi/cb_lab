@@ -6,11 +6,12 @@ output:
    theme:
     bootswatch: sandstone 
 github-repo: carushi/bioinfo_tutorial_collection
+css: site_style.css
 ---
 # Members {.row}
-##  {.col-md-8}
+## {.row}
 
-### Risa K Kawaguchi (Ph.D)
+#### Risa K Kawaguchi (Ph.D) {.col-md-8}
 - [Personal Website](https://sites.google.com/site/cawatchm/)
 - [Google scholar]("https://scholar.google.com/citations?user=BLtM6hoAAAAJh")
 - [carushi@github](https://github.com/carushi)
@@ -20,18 +21,22 @@ github-repo: carushi/bioinfo_tutorial_collection
 eval("Risa ~ curiosity + computer + biology + patience + 0.1 carelessness")
 ```
 
-### Staffs
+#### {.col-md-4}
+
+![](figures/members/kawaguchi.jpeg){width=200px, height=200px}
+
+
+## Staffs
+
+
+#### Jane Doe { .col-md-8}
+#### {.col-md-4 }
+
+## Students
 
 - Jane Doe
 
-### Students
+## Alumni
 
 - Jane Doe
 
-### Alumni
-
-- Jane Doe
-
-## {.col-md-4 }
-
-![](figures/members/kawaguchi.jpeg)

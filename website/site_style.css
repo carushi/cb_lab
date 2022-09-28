@@ -26,3 +26,5 @@ figure img {
 	max-width: 100%;	
 	vertical-align: bottom;
 }
+
+img[alt=face] { width: 1px; }
