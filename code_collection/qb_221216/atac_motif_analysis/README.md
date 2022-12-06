@@ -3,12 +3,11 @@
 
 
 ## BICCN mini-atlas scATAC-seq analysis
-* obtained from https://github.com/crajesh6/biccn
-* biccn\_analysis.ipynb
+* biccn\_analysis.ipynb is obtained from https://github.com/crajesh6/biccn (modified)
 
 ## Enformer
-* enformer-usage.ipynb
-* obtained from https://github.com/deepmind/deepmind-research/tree/master/enformer
+* enformer-usage.ipynb is from https://github.com/deepmind/deepmind-research/tree/master/enformer (modified)
+* model is available at https://tfhub.dev/deepmind/enformer/1
 
 
 ## Data download (temporary)
