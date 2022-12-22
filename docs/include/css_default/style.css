@@ -1,0 +1,8 @@
+pre code, p code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>project.knit</title>
+
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link href="site_libs/bootstrap-5.2.0/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-5.2.0/bootstrap.bundle.min.js"></script>
+<script src="site_libs/bs3compat-0.4.0.9000/transition.js"></script>
+<script src="site_libs/bs3compat-0.4.0.9000/tabs.js"></script>
+<script src="site_libs/bs3compat-0.4.0.9000/bs3compat.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href='libs/fluidbox/css/fluidbox.css' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+<link href='include/css/style.css' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">河口研究室@CiRA</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="members.html">Members</a>
+</li>
+<li>
+  <a href="project.html">Project</a>
+</li>
+<li>
+  <a href="publication.html">Publication</a>
+</li>
+<li>
+  <a href="software.html">Software</a>
+</li>
+<li>
+  <a href="link.html">Link</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    ENGLISH
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="index_en.html">Home</a>
+    </li>
+    <li>
+      <a href="members_en.html">Members</a>
+    </li>
+    <li>
+      <a href="publication_en.html">Publication</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<p><br></p>
+<div id="俯瞰情報生物学研究室" class="section level2 col-md-12">
+<h2 class="col-md-12">俯瞰情報生物学研究室</h2>
+<p>生物学の分野ではDNAのシーケンシング技術の発明によりヒトゲノムが解読されてから、大量の情報が計測されるようになりました。それらはミクロな分子や細胞の情報から、マクロな個体レベルの情報まで多岐に渡ります。こうして得られた情報から新たな発見をするためには、ターゲットとなる生物の知識だけではなく、それらを解析するための情報科学や統計の知識が必要不可欠です。我々の研究室では、世界中で得られたデータを俯瞰的に比較解析するメタ統合解析技術によって、未知の遺伝子と生物の機能との関係性（ミッシングリンク）を明らかにすることを目指します。</p>
+<div id="一細胞エピゲノム解析" class="section level3">
+<h3>一細胞エピゲノム解析</h3>
+<p>エピゲノムはDNA上に見られる修飾情報のことで、そこから転写される遺伝子をダイナミックに制御することで、ヒトなどの多細胞生物においてはさまざまな組織や細胞種を生み出すために不可欠です。そんなエピゲノム情報を一細胞レベルで計測できる技術が、近年いくつも開発され。Single-cell
+Assay for Transposase Accessible Chromatin with Sequencing
+(scATAC-seq)と呼ばれる手法です。他にもDNAのメチル化を調べる手法（sn-m3C-seq）やヒストン修飾を認識する抗体を利用した手法（scCUT&amp;TAG）などの手法により、それぞれのDNA領域がどのような制御状態にあるのかを一細胞レベルで詳細に知ることができます。</p>
+<p>こうしたエピゲノム情報は、iPS細胞やES細胞などの多能性幹細胞の初期化過程において特に重要で、初期化前のエピゲノム状態の一部が初期化から逃れることで、同じ条件で作られた細胞であっても様々な機能の違いをもつことが知られています。こうした現象は「エピジェネティックメモリー」と呼ばれ、分化前の細胞状態が分化後にも影響を及ぼしたり、過去の感染や炎症、創傷などによってその後の細胞の反応が変化するなどの様々な生物学的な機能と関わっています。そこで私達は情報科学的なアプローチ、特にメタ統合解析と深層学習技術によって、ゲノム配列とエピジェネティクメモリーから生み出される遺伝子制御ネットワークの予測と理解を目指しています。</p>
+<p>参考文献:</p>
+<ul>
+<li>エピゲノムと生命　ＤＮＡだけでない「遺伝」のしくみ（ブルーバックス）<a
+href="https://www.amazon.co.jp/%E3%82%A8%E3%83%94%E3%82%B2%E3%83%8E%E3%83%A0%E3%81%A8%E7%94%9F%E5%91%BD-%EF%BC%A4%EF%BC%AE%EF%BC%A1%E3%81%A0%E3%81%91%E3%81%A7%E3%81%AA%E3%81%84%E3%80%8C%E9%81%BA%E4%BC%9D%E3%80%8D%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF-%E3%83%96%E3%83%AB%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E5%A4%AA%E7%94%B0%E9%82%A6%E5%8F%B2-ebook/dp/B00POVFSA2">[link]</a></li>
+<li><strong>Kawaguchi RK</strong>, Tang Z, Fischer S, Rajesh C, Tripathy
+R, Koo PK, Gillis J. Accepted. 2022. <a
+href="https://www.biorxiv.org/content/10.1101/2021.04.01.438068v2">[bioRxiv]</a></li>
+<li>Sheu YJ, <strong>Kawaguchi RK</strong>, Gillis J, Stillman B.
+Accepted. 2022. <a
+href="https://www.biorxiv.org/content/10.1101/2021.05.23.445333v3">[bioRxiv]</a></li>
+</ul>
+</div>
+<div id="小規模不均一データの機械学習と医療dx" class="section level3">
+<h3>小規模不均一データの機械学習と医療DX</h3>
+<p>医療の分野では患者さんの様々な情報から、最適な治療方針や予後の予測を行い、よりよい医療が提供されることを目指しています。このとき、患者さんのバックグラウンド情報や、血液から得られた遺伝子変異やトランスクリプトーム、画像などのマルチモダリティな情報を同時に扱う必要があります。さらに医療情報の解析には、個人情報の保護や十分なデータ数の確保が難しい点、そして病院横断的なデータの非均一性などの問題があることが知られています。
+私達の研究室では、こうした医療データの適切な規格化、機械学習の適応プラットフォームの確立と、それらの病院横断的な頑健性の検証を進めています。</p>
+<p>参考文献：</p>
+<ul>
+<li><strong>Kawaguchi RK</strong>†, Takahashi M†, Miyake M, Kinoshita M,
+Takahashi S, Ichimura K, Hamamoto R, Narita Y, Sese J. 2021. <a
+href="https://www.mdpi.com/2072-6694/13/14/3611">[cancers]</a></li>
+<li>Takahashi S, … <strong>Kawaguchi R</strong>, … et al. 2021. <a
+href="https://www.mdpi.com/2072-6694/13/6/1415">[cancers]</a></li>
+</ul>
+<p>これ以外にも、RNA二次構造や脂質などの分子レベルのものから、発達過程の進化や老化などの個体レベルの事象のさらなる理解を、情報科学を駆使することにより推し進めていきます。</p>
+</div>
+</div>
+
+<script type="text/javascript" src="libs/fluidbox/jquery.fluidbox.min.js"></script>
+<script type="text/javascript" src="include/js/enable-fluidbox.js"></script>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+
+</body>
+</html>

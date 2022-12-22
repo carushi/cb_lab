@@ -1,0 +1,15 @@
+---
+title: "河口　理紗　研究室"
+author: "Risa K Kawaguchi"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    toc: true
+    toc_float:
+      collapse: false
+    df_print: "kable"
+    include:
+      after_body: footer.html
+---

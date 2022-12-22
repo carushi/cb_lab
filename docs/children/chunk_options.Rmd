@@ -1,0 +1,13 @@
+```{r chunk_options, include=FALSE}
+library(knitr)
+
+opts_chunk$set(
+  cache     = TRUE,
+  fig.path  = file.path("figures/", opts_chunk$get("fig.path"))
+)
+
+opts_template$set(
+  fig_small = list(out.width = 200, out.height = 200),
+  fig_large = list(out.width = 500, out.height = 500)
+)
+```
