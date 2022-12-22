@@ -1,0 +1,17 @@
+---
+title: "Database of biological databases" 
+
+output: 
+  html_document:
+   theme:
+    bootswatch: sandstone 
+github-repo: carushi/cb_lab
+---
+
+## Demo
+
+```{r, echo=TRUE}
+DT::datatable(head(iris), editable = 'cell')
+#sample$Page <- paste0("<a href=", "'", sample$URL, "'", "target = '_blank'", ">", sample$Page, "</a>")
+DT::datatable(head(mtcars))
+```

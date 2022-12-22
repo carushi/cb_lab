@@ -1,0 +1,29 @@
+---
+title: "Publication"
+
+output: 
+  html_document:
+   toc: true
+   toc_float: true
+   theme:
+    bootswatch: sandstone 
+   toc_depth: 3
+github-repo: carushi/cb_bio
+---
+
+### Journal article
+* **Kawaguchi RK**, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J. Accepted. 2022. [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.04.01.438068v2)
+* Sheu YJ, **Kawaguchi RK**, Gillis J, Stillman B. *eLife*, 11:e84320, 2022. [[link]](https://elifesciences.org/articles/84320) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.05.23.445333v3)
+ 
+* List of older papers is available [here](https://scholar.google.com/citations?user=BLtM6hoAAAAJ)
+
+### Preprint
+* Ballouz S\*, Kawaguchi RK\*, et al. [[link]](https://www.biorxiv.org/content/10.1101/2019.12.11.873265v1)
+* Takizawa N, ... Kawaguchi RK, ... et al. [[link]](https://www.biorxiv.org/content/10.1101/2020.03.05.975870v2)
+
+### Review
+* Coming soon
+
+### Book
+* RNA structure prediction. Kawaguchi R and Iwakiri J. (in press)
+

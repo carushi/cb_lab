@@ -8,18 +8,34 @@ output:
    theme:
     bootswatch: sandstone 
    toc_depth: 3
-github-repo: carushi/bioinfo_tutorial_collection
+github-repo: carushi/cb_bio
 ---
 
 
 
 ### 査読付き論文
+* **Kawaguchi RK**, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J. Accepted. 2022. [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.04.01.438068v2)
+* Sheu YJ, **Kawaguchi RK**, Gillis J, Stillman B. *eLife*, 11:e84320, 2022. [[link]](https://elifesciences.org/articles/84320) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.05.23.445333v3)
+ 
+* 過去の論文については[こちら](https://scholar.google.com/citations?user=BLtM6hoAAAAJ)
+
+### プレプリント
+* Ballouz S\*, Kawaguchi RK\*, et al. [[link]](https://www.biorxiv.org/content/10.1101/2019.12.11.873265v1)
+* Takizawa N, ... Kawaguchi RK, ... et al. [[link]](https://www.biorxiv.org/content/10.1101/2020.03.05.975870v2)
 
 ### 総説
-
+* Coming soon
 
 ### 書籍
+* RNA structure prediction. Kawaguchi R and Iwakiri J. (in press)
 
 ### 口頭発表
-
+* 2022.12.10: GTPハッカソン「データサイエンティストが紐解く老化と発達の切っても切れない関係」河口　理紗 [[link]](https://en.gtp-project.net/20221209-11)
+* 2022.12.07: 定量生物学の会　チュートリアル「離散的配列情報と高次元生命情報をつなぐ統計と機械学習」河口　理紗 [[link]](https://q-bio.jp/index.php?title=2022_10thqbio_tutorial)
+* 2022.12.02: 第45回日本分子生物学会年会　GTPと疾患治療「GTPセンサー分子の代謝バランス制御機構とヒト表現型へ及ぼす影響の解明」＠幕張メッセ　河口　理紗
+* 2022.11.30: 第45回日本分子生物学会年会　オミクスを重ねた解析から我々は何を知ることができるのか？「ココノオビアルマジロの一細胞トランスクリプトームとエピゲノムの統合解析による発達段階における確率的変動のカナリゼーション検出」Kawaguchi RK, Ballouz S, Pena MT, Knight FM, Adams LB, Gillis J.
+* 2022.11.19: 幹細胞の培養法・培養工学のためのコンソーシアム第6回シンポジウム 「情報生命科学による幹細胞研究の新展開」＠大阪　河口　理紗 [[link]](https://www.eng.osaka-u.ac.jp/ja/topics/events/12632/)
+* 2022.08.28: RNAインフォマティクス道場＠宮崎　河口　理紗
+* 2022.08.18: 長崎ワークショップ「オミクス間不和から探る生体の可塑性とカナリゼーション」＠長崎　河口　理紗
+* 2022.07.21: 第23回日本RNA学会年会 "Nine-banded armadillo transcriptome and chromatin accessibility exhibit variability in identity at cellular resolution". Kawaguchi RK, Ballouz S, Pena MT, Knight FM, Adams LB, Gillis J.
 

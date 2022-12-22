@@ -5,7 +5,7 @@ output:
   html_document:
    theme:
     bootswatch: sandstone 
-github-repo: carushi/bioinfo_tutorial_collection
+github-repo: carushi/cb_lab
 ---
 
 
@@ -30,6 +30,7 @@ github-repo: carushi/bioinfo_tutorial_collection
 
 ## 新着情報 {.col-md-9}
 
+- 2022.12.10 Publicationアップデート
 - 2022.09.22 サイト作成
 
  - [論文リスト](publication.html)
