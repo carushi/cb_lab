@@ -27,8 +27,8 @@ github-repo: carushi/cb_bio
 参考文献:
 
 - エピゲノムと生命　ＤＮＡだけでない「遺伝」のしくみ（ブルーバックス）[[link]](https://www.amazon.co.jp/%E3%82%A8%E3%83%94%E3%82%B2%E3%83%8E%E3%83%A0%E3%81%A8%E7%94%9F%E5%91%BD-%EF%BC%A4%EF%BC%AE%EF%BC%A1%E3%81%A0%E3%81%91%E3%81%A7%E3%81%AA%E3%81%84%E3%80%8C%E9%81%BA%E4%BC%9D%E3%80%8D%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF-%E3%83%96%E3%83%AB%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E5%A4%AA%E7%94%B0%E9%82%A6%E5%8F%B2-ebook/dp/B00POVFSA2)
-- **Kawaguchi RK**, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J. Accepted. 2022. [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.04.01.438068v2)
-- Sheu YJ, **Kawaguchi RK**, Gillis J, Stillman B. Accepted. 2022. [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.05.23.445333v3)
+- **Kawaguchi RK**, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J. *Briefings in Bioinformatics*, 2022. [[link]](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac541/6957249)
+- Sheu YJ, **Kawaguchi RK**, Gillis J, Stillman B. *eLife*, 2022. [[link]](https://elifesciences.org/articles/84320)
 
 ### 小規模不均一データの機械学習と医療DX
 
@@ -37,8 +37,8 @@ github-repo: carushi/cb_bio
 
 参考文献：
 
-- **Kawaguchi RK**†, Takahashi M†, Miyake M, Kinoshita M, Takahashi S, Ichimura K, Hamamoto R, Narita Y, Sese J. 2021. [[cancers]](https://www.mdpi.com/2072-6694/13/14/3611)
-- Takahashi S, ... **Kawaguchi R**, ... et al. 2021. [[cancers]](https://www.mdpi.com/2072-6694/13/6/1415)
+- **Kawaguchi RK**†, Takahashi M†, Miyake M, Kinoshita M, Takahashi S, Ichimura K, Hamamoto R, Narita Y, Sese J. *Cancers*, 2021. [[link]](https://www.mdpi.com/2072-6694/13/14/3611)
+- Takahashi S, ... **Kawaguchi R**, ... et al. *Cancers*, 2021. [[link]](https://www.mdpi.com/2072-6694/13/6/1415)
 
 これ以外にも、RNA二次構造や脂質などの分子レベルのものから、発達過程の進化や老化などの個体レベルの事象のさらなる理解を、情報科学を駆使することにより推し進めていきます。
 

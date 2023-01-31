@@ -9,5 +9,8 @@ output:
    theme:
     bootswatch: sandstone 
    toc_depth: 2
-github-repo: carushi/bioinfo_tutorial_collection
+github-repo: carushi/cb_lab
 ---
+
+* Tools and software
+  - See my profile at [[github]](https://github.com/carushi)
