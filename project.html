@@ -18,6 +18,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <link href="site_libs/bootstrap-5.2.0/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-5.2.0/bootstrap.bundle.min.js"></script>
+<link href="site_libs/Rubik-0.4.4/font.css" rel="stylesheet" />
 <script src="site_libs/bs3compat-0.4.0.9000/transition.js"></script>
 <script src="site_libs/bs3compat-0.4.0.9000/tabs.js"></script>
 <script src="site_libs/bs3compat-0.4.0.9000/bs3compat.js"></script>
@@ -27,10 +28,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href='libs/fluidbox/css/fluidbox.css' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-<link href='include/css/style.css' rel='stylesheet' type='text/css'>
-
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -39,8 +36,7 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
@@ -407,8 +403,6 @@ href="https://www.mdpi.com/2072-6694/13/6/1415">[link]</a></li>
 </div>
 </div>
 
-<script type="text/javascript" src="libs/fluidbox/jquery.fluidbox.min.js"></script>
-<script type="text/javascript" src="include/js/enable-fluidbox.js"></script>
 
 
 </div>
@@ -475,6 +469,15 @@ $(document).ready(function ()  {
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 </body>
 </html>
