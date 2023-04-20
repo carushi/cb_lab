@@ -1,11 +1,6 @@
 ---
 title: "Database of biological databases" 
 
-output: 
-  html_document:
-   theme:
-    bootswatch: sandstone 
-github-repo: carushi/cb_lab
 ---
 
 ## Demo

@@ -5,10 +5,7 @@ output:
   html_document:
    toc: true
    toc_float: true
-   theme:
-    bootswatch: sandstone 
-   toc_depth: 3
-github-repo: carushi/cb_bio
+  toc_depth: 3
 ---
 
 <br>

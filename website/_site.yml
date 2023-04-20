@@ -1,4 +1,4 @@
-  navbar:
+navbar:
     title: "河口研究室@CiRA"
     left:
       - text: "Home"
@@ -19,3 +19,13 @@
           href: index_en.html 
         - text: "Members"
           href: members_en.html
+        - text: "Publication"
+          href: publication_en.html
+    search: true      
+output: 
+  html_document:
+   theme:
+    bootswatch: flatly
+    base_font:
+     google: "Rubik"
+github-repo: carushi/cb_lab

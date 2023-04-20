@@ -1,11 +1,6 @@
 ---
 title: "Welcome to Kawaguchi Lab"
 
-output: 
-  html_document:
-   theme:
-    bootswatch: sandstone 
-github-repo: carushi/cb_lab
 ---
 
 
@@ -30,6 +25,7 @@ github-repo: carushi/cb_lab
 
 ## 新着情報 {.col-md-9}
 
+- 2023.04.20 サイトデザインアップデート
 - 2023.03.08 Informationアップデート
 - 2022.12.10 Publicationアップデート
 - 2022.09.22 サイト作成

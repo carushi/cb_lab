@@ -1,11 +1,6 @@
 ---
 title: "Welcome to Kawaguchi Lab"
 
-output: 
-  html_document:
-   theme:
-    bootswatch: sandstone 
-github-repo: carushi/cb_lab
 ---
 
 
@@ -22,16 +17,17 @@ Computational biology lab towards understanding a ubiquitous mechanism to regula
 <div class="card">
   <div class="card-header">News</div>
   <div class="card-body">
-  We are recruiting [CiRA research internship fellows](https://www.cira.kyoto-u.ac.jp/e/education/internship.html) and office assistants at Kyoto University.
+  We are recruiting Office Assistant students of Kyoto University.
 Please contact me via *rkawaguchi-g at cira.kyoto-u.ac.jp* if you have an interest. We would like to welcome research interns and JSPS research fellows for collaboration as well.
 </div>
 </div>
 <br/>
 <br/>
 
-##  {.col-md-9}
+## History {.col-md-9}
+- 2023.04.20 Updated.
 - 2023.03.08 Updated.
 - 2022.12.22 Updated.
 - 2022.09.22 Launched this website.
-  - [Members](members.html)
+
 

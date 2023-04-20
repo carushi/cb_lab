@@ -6,10 +6,6 @@ output:
    toc: true
    toc_float: true
    toc_collapsed: true
-   theme:
-    bootswatch: sandstone 
-   toc_depth: 2
-github-repo: carushi/cb_lab
 ---
 
 * Tools and software

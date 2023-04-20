@@ -1,12 +1,8 @@
 ---
 title: ""
 ink-citations: yes
-output: 
-  html_document:
-   theme:
-    bootswatch: sandstone 
-github-repo: carushi/cb_lab
 ---
+
 
 <br>
 
@@ -20,12 +16,12 @@ github-repo: carushi/cb_lab
 - [Twitter](https://twitter.com/can_pyong)
 
 ```{r, echo=FALSE}
-eval("Risa ~ curiosity + computer + biology + patience + 0.1 serendipity")
+eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 ```
 
 ### Staffs
 
-- Yuki Morimoto
+- Jane Doe
 
 ### Students
 

@@ -1,11 +1,6 @@
 ---
 title: "Link"
 ink-citations: yes
-output: 
-  html_document:
-   theme:
-    bootswatch: sandstone 
-github-repo: carushi/bioinfo_tutorial_collection
 ---
 
 ## Affiliation

@@ -1,11 +1,5 @@
 ---
 title: "Project"
-
-output: 
-  html_document:
-   theme:
-    bootswatch: sandstone 
-github-repo: carushi/cb_bio
 ---
 
 ## Single-cell epigenome analysis
