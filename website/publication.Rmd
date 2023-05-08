@@ -11,8 +11,8 @@ output:
 
 
 ### 査読付き論文
-* **Kawaguchi RK**, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J. *Briefings in Bioinformatics*, bbac541, 2022. [[link]](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac541/6957249) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.04.01.438068v2)
-* Sheu YJ, **Kawaguchi RK**, Gillis J, Stillman B. *eLife*, 11:e84320, 2022. [[link]](https://elifesciences.org/articles/84320) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.05.23.445333v3)
+* "Learning single-cell chromatin accessibility profiles using meta-analytic marker genes." <u>**Kawaguchi RK**</u>, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J. *Briefings in Bioinformatics*, bbac541, 2022. [[link]](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac541/6957249) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.04.01.438068v2)
+* "Prevalent and dynamic binding of the cell cycle checkpoint kinase Rad53 to gene promoters." Sheu YJ, <u>**Kawaguchi RK**</u>, Gillis J, Stillman B. *eLife*, 11:e84320, 2022. [[link]](https://elifesciences.org/articles/84320) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.05.23.445333v3)
  
 * 過去の論文については[こちら](https://scholar.google.com/citations?user=BLtM6hoAAAAJ)
 

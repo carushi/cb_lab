@@ -10,7 +10,7 @@ ink-citations: yes
 
 ### 河口理紗（Risa K Kawaguchi）
 - [個人サイト](https://sites.google.com/site/cawatchm/)
-- [google scholar]("https://scholar.google.com/citations?user=BLtM6hoAAAAJh")
+- [google scholar](https://scholar.google.com/citations?user=BLtM6hoAAAAJh)
 - [carushi@github](https://github.com/carushi)
 - [Twitter](https://twitter.com/can_pyong)
 

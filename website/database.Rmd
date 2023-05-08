@@ -3,7 +3,7 @@ title: "Database of biological databases"
 
 ---
 
-## Demo
+## Demo space
 
 ```{r, echo=TRUE}
 DT::datatable(head(iris), editable = 'cell')

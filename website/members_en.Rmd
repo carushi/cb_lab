@@ -11,7 +11,7 @@ ink-citations: yes
 
 ### Risa K Kawaguchi (Ph.D)
 - [Personal Website](https://sites.google.com/site/cawatchm/)
-- [Google scholar]("https://scholar.google.com/citations?user=BLtM6hoAAAAJh")
+- [Google scholar](https://scholar.google.com/citations?user=BLtM6hoAAAAJh)
 - [carushi@github](https://github.com/carushi)
 - [Twitter](https://twitter.com/can_pyong)
 
@@ -21,7 +21,7 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 
 ### Staffs
 
-- Jane Doe
+- Yuki Morimoto (Technician and secretary)
 
 ### Students
 
