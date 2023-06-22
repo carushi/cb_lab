@@ -1,0 +1,234 @@
+\documentclass[cjk, aspectratio=169]{beamer}
+\AtBeginDvi{\special{pdf:tounicode 90ms-RKSJ-UCS2}}
+
+
+%\usetheme{CambridgeUS}
+%\usetheme{Madrid}
+%\usetheme{Antibes}
+%\usetheme{Montpellier}
+%\usetheme{Berkeley}
+%\usetheme{Goettingen}
+% \usetheme{Singapore}
+\usetheme{metropolis}
+\usepackage{zxjatype}
+\usepackage[ipa]{zxjafont}
+% \setbeamertemplate{background}[grid][step=2mm]
+%\usetheme{Szeged}
+%\usetheme{Boadilla}
+%\usetheme{Bergen}
+
+\usecolortheme{rose}
+%\usecolortheme{albatross}
+%\usecolortheme{crane}
+% \useoutertheme{shadow}
+
+\usefonttheme{professionalfonts}
+\usepackage{subfigure}
+\usepackage{ascmac}
+\usepackage{amsmath}
+\usepackage{ulem}
+\usepackage{fancybox}
+
+\usepackage{slashed}
+\usepackage{datetime}
+\usepackage{tikz}
+
+\def\meetingname{CiRA Bioinformatics Study Meeting}
+\begin{document}
+\title[Beamer]{Basic Biostatistics for Beginners}
+\author[RK]{Risa Kawaguchi} 
+\institute[KU]{Kyoto University}
+\date[\mydate]{\meetingname\\\today}
+
+
+\titlegraphic { 
+\begin{tikzpicture}[overlay,remember picture]
+\node[left=0.4cm, below=7cm] at (current page.60){
+\includegraphics[scale=0.1]{ku_logo.png} ~%
+\includegraphics[bb=0 13 377 119, scale=0.3]{cira_logo_en.pdf} %
+};
+\end{tikzpicture}
+}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Contents}
+\tableofcontents
+\end{frame}
+%------------------------------------------------------------
+
+\begin{frame}{About presentation materials}
+\begin{itemize}
+\item Made by Beamer on overleaf
+\item Available at \url{https://github.com/carushi/cb_lab/code_collection/230622_cb_bio_stat/}
+\item 誤りなど見つけましたらご連絡頂けると幸いです
+\end{itemize}
+\end{frame}
+
+\section{Probability theory for statistics}
+\begin{frame}{Resources}
+\begin{itemize}
+\item 解析学 - 確率論・測度論 - 統計学
+\item Mathematical analysis - Probability and measure theory - Statistics
+\item 統計学入門 (基礎統計学1) - 自然科学の統計学
+\item \url{https://bellcurve.jp/statistics/course/}
+\item \url{http://ibisforest.org/index.php?FrontPage}
+\item \url{https://www.statskingdom.com/index.html}
+\item \url{https://github.com/tsg-ut/awesome-prml-ja} PRML
+\end{itemize}
+\end{frame}
+
+\begin{frame}{重要な概念}
+\begin{itemize}
+    \item 標本$\omega$・標本空間$\Omega$ - サイコロの目・とりうる目全体
+    \item 事象$A$・事象空間$F$ - 偶数・奇数、3以上など確率測度で可測な部分集合の和
+    \item 確率測度$P(A)$・確率空間$(\Omega,F,P)$ - それぞれの事象に対しその確率（実数）を返す関数
+    \item 確率変数$X(\omega)$ - 事象を表す変数
+    \item 確率分布$Pr(X)$ - 確率変数がある値となるときの確率を返す関数
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+確率の性質を満たすには、様々な条件が必要とされている。例えば事象が無限個あった場合（連続値など）の確率や、離散的な分布において、期待値などの計算はどのようになされるのか？それらを厳密に定義するためには、数学の理解が必要。以下は上辺の理解。
+\begin{itemize}
+\item 和が1 --- $P(\Omega) = 1$
+\item Fに対するそれぞれの確率測度が0-1の範囲内 --- $P:F \rightarrow [0,1]$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{期待値と平均値}
+期待値とは一般に、確率変数のとりうる値に確率の重みをかけた値。n回試行した場合のサンプルの観測確率を$\frac{1}{n}$とすれば、サンプル平均は標本集団におけるXの期待値となり、期待値=平均の一般化と考えることも出来る。
+\begin{itemize}
+\item 離散の場合 $E(X)=\sum_{i} x_i \times Pr(x_i)$
+\item 標本平均 $ mean (\bar{x}) = \sum_{i=0}^{n} x_i \times \frac{1}{n}$
+\item 連続の場合 $E(X)=\int_{-\infty}^{\infty} x \times Pr(x) dx$
+\item 分散 $V(X) = E[(X-E[X])^2] = \sum_{i} x_i^2 \times Pr(x_i) - E(X)^2 $
+\item 標本分散 $ Var = \sum_{i}^{n} (x_i - \bar{x}) \times \frac{1}{n} $
+\item 三次、四次の平均値周りの期待値を$\sigma^3$と$\sigma^4$でわったものは歪度、尖度
+\end{itemize}
+\end{frame}
+
+\begin{frame}{ガウス分布の場合の平均・分散}
+ガウス分布・正規分布 $N=\frac{1}{\sqrt{2\pi \sigma^2}}\exp\left(\frac{-(x-\mu)^2}{2\sigma^2}\right)$
+\begin{itemize}
+\item Z-scoreやt検定の計算の際には、母集団が正規分布に従うと仮定
+\item ガウス積分の公式 $\int_{-\infty}^{\infty}e^{-ax^2}dx = \sqrt{\frac{\pi}{a}}$
+\item 平均 $E(X) = \int_{-\infty}^{\infty} x \times Pr(x) dx = \mu$ 
+\item 分散 $V(X) = E(x^2)-E(x)^2 = \sigma^2$
+\item 正規分布は歪度が0、尖度が3になる関数
+\item 1次・2次モーメントの値で関数全体が規定される
+\item 中心極限定理により、サンプルの数を増やしていくとサンプルの平均は正規分布に近づくことが知られる
+\item 性質的にも扱いやすいためによく用いられる
+\end{itemize}
+\end{frame}
+
+\begin{frame}{おまけ：便利なモーメント母関数}
+モーメント母関数は、tでn回微分してt=0を代入すると$E[x^n]$となる関数。存在しないこともある。
+正規分布においては、
+\begin{itemize}
+\item モーメント母関数 $M_{X}(t) = E[e^{tX}] = \exp \left( \mu t + \frac{\sigma^2t^2}{2} \right)$
+\item $\mu = 0$のとき（簡単のため）
+\item 一階微分＝平均：$M_{X}'(t)=t\sigma^2 e^{\frac{\sigma^2 t^2}{2}}, M'_{X}(0) = 0$
+\item 二階微分＝分散：$M_{X}''(t)=\sigma^2(1 + \sigma^2 t^2)e^{\frac{\sigma^2 t^2}{2}}, M''_{X}(0)=\sigma^2 $
+\item 三階微分＝歪度：$M_{X}'''(t)=\sigma^4 (3t + \sigma^2t^3) e^{\frac{\sigma^2 t^2}{2}}, M'''_{X}(0) = 0  $
+\item 以下n回続く...
+\end{itemize}
+\end{frame}
+
+\begin{frame}{おまけ：便利な特性関数}
+特性関数は確率分布を完全に定義する関数で、確率分布のフーリエ変換後の関数とも言える。
+\begin{itemize}
+\item 特性関数 $\psi_X(t) = E[e^{itX}] = \int_{-\infty}^{\infty} e^{itX} dF(X) $
+\item $= \int_{-\infty}^{\infty} e^{itx}f_X(x) dx $
+\item 正規分布の場合 $\psi_X(t) = \exp \left(i\mu t\right) \exp \left(-\sigma^2t^2/2\right)$
+\end{itemize}
+\end{frame}
+
+
+\section{Hypothesis Test - 仮説検定}
+    \begin{frame}{統計}
+    何かの効果や特性を知りたいが、すべて（母集団）を観測できないとき、そして観測にノイズやばらつきが存在するときに、より信頼性の高い結論を得るために様々なデータを集めたり、モデルに基づく確率・期待値を利用して仮説を検証する。
+    \begin{itemize}
+    \item ナイチンゲールによる病院の衛生状態と戦死者・傷病者の関係性の証明
+    \item 選挙における投票と出口調査
+    \item モンティ・ホール問題
+    \item ギャンブルに勝てるかどうか？
+    \item このレアガチャは当たるのか？
+    \end{itemize}
+    \end{frame}
+
+    \begin{frame}{母集団の仮定}
+    \begin{itemize}
+    \item 経験分布 - 得られたサンプルの中での外れ値を探す*
+    \item 確率分布 - 正規分布・ポワソン分布・ベータ分布・ロジスティック分布など
+    \item ノンパラメトリックな方法
+    \item より厳しい仮定を置くほど有意差を鋭敏に検出できる
+    \end{itemize}
+    \end{frame}
+
+    \begin{frame}{平均値・分散・分布の違いなどを検出}
+    正規分布を仮定した検定
+    \begin{itemize}
+    \item t検定 - 2集団の平均の差。分散が等しい正規分布を仮定（異分散の場合はWelch's t test)
+    \item F検定 - 正規分布に従う分布の標準偏差の違いを検出（諸説あり）
+    \end{itemize}
+    ノンパラメトリックな検定
+    \begin{itemize}
+    \item Wilcoxonの符号順位和検定・Mann-Whitney U検定 - ２集団の順位差
+    \item Kolmogorov-Smirnov検定 - 分布全体の差
+    \item $\chi^{2}$検定 - 期待値への当てはまり度合いなどでよく使われる $\sum \frac{(O-E)^2}{E}$
+    \end{itemize}
+    \end{frame}
+
+    \begin{frame}{仮説検定とは}
+    \begin{itemize}
+    \item 1. モデルをもとに帰無仮説$H_0$を設定する（ランダム、同じ母集団、差がない）
+    \item 2. 対立仮説$H_1$を証明したい事柄とする（ランダムではない、別の母集団、差がある）
+    \item 3. 帰無仮説に従うときの確率を計算する
+    \item 4. 帰無仮説に従う確率が十分に低いとき、帰無仮説を棄却する
+    \item 5. 帰無仮説が棄却されなかった場合、対立仮説が正しいとする統計的な有意性はない
+    \item モデルに従うとき利用してそれぞれの値のときの確率を計算する
+    \item これにより正規分布表・t分布表などが作れる
+    \item ただしこれらは特定の自由度・標本サイズのときの近似値であり、
+    \end{itemize}
+    \end{frame}
+
+\section{Multiple Test - 多重検定}
+
+    \begin{frame}{検定を何度も行う場合}
+    \begin{itemize}
+    \item 一回の検定で誤って帰無仮説が棄却する可能性は$\alpha(=0.05など)$の値で制御される
+    \item しかし、この検定を繰り返すと、誤って棄却される可能性は上昇する $1 - (1-0.05)\times (1-0.05) ...$
+    \item cf) 低確率のガチャ
+    \item これをどのように補正するか？
+    \end{itemize}
+    \end{frame}
+
+    \begin{frame}{よく利用される補正方法}
+    \begin{itemize}
+        \item ボンフェローニ法
+        \item - FWER（family-wise error rate）を制御する＝少なくとも一回真の仮説を誤って棄却する確率により制御。
+        \item - やることは$\alpha$を検定回数$n$で割るもので、厳しい基準に基づく。
+        \item - GWASなど大量の検定を行う場合、何も検出できないことも多い
+        \item Benjamini-Hochberg(BH)法
+        \item - FDR (false-discovery rate)を制御する＝棄却された仮説の中での誤って棄却された仮説の割合の期待値（$\alpha,q$）により制御。
+        \item - p値を昇順に並べて$p_i \le \frac{i}{n}q$を$i=n$から1まで条件を満たすまで探索（満たした場合$1 \sim i$まで棄却する）
+        \item - 補正した値はq値と呼ばれる
+        \item - 計算には便利な関数を使おう
+    \end{itemize}
+    \end{frame}
+
+\begin{frame}{実践編}
+\item \url{https://colab.research.google.com/github/carushi/cb_lab/blob/main/code_collection/230622_cb_bio_stat/sample_biostat_template.ipynb}にアクセス
+\item gmail アカウントでログイン
+\item 自分でプログラムをRun！
+\item 他にもgithubにあがっているコードはGoogle collabで利用可能
+\item \url{https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb}
+\item \url{https://colab.research.google.com/github/lexfridman/mit-deep-learning/blob/master/tutorial_deep_learning_basics/deep_learning_basics.ipynb}
+\end{frame}
+
+\end{document}

@@ -8,5 +8,5 @@
 * Pseudo-bulk scATAC-seq analysis to discover cell-type specific enhancer motif sequences.
 
 
-## Download data and slide (temporary access link)
-* https://www.dropbox.com/sh/8wemj4ep36u67qi/AABhmdcWsjtFoRknMOKq2Jpha?dl=0
+## Presentation
+[Japanese Society for Quantitative Biology](https://q-bio.jp/index.php?title=2022_10thbio_tutorial_doc)

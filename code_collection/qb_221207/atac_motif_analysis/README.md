@@ -10,5 +10,3 @@
 * model is available at https://tfhub.dev/deepmind/enformer/1
 
 
-## Download data and model (temporary access link)
-* https://www.dropbox.com/sh/8wemj4ep36u67qi/AABhmdcWsjtFoRknMOKq2Jpha?dl=0
