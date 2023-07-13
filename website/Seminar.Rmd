@@ -1,0 +1,14 @@
+---
+title: "Seminar"
+
+output: 
+  html_document:
+   toc: true
+   toc_float: true
+  toc_depth: 3
+---
+
+### 2023
+* 06.27 小嶋泰弘 「深層生成モデルによる共変量依存的細胞状態ダイナミクスの推定」
+* 9月開催予定？ Coming soon.
+* 11月開催予定 Coming soon.

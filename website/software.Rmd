@@ -1,11 +1,6 @@
 ---
 title: "Software"
-
-output: 
-  html_document:
-   toc: true
-   toc_float: true
-   toc_collapsed: true
+ink-citations: yes
 ---
 
 * Tools and software

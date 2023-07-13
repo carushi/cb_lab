@@ -2,15 +2,19 @@
 title: "Project"
 ---
 
-## Single-cell epigenome analysis
-Epigenetic .
 
-Ref: **Kawaguchi RK**, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J. Accepted. 2022. [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.04.01.438068v2)
- Sheu YJ, **Kawaguchi RK**, Gillis J, Stillman B. Accepted. 2022. [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.05.23.445333v3)
- 
+In the field of biology, due to the advancement of DNA sequencing and other high-throughput technologies, a vast amount of information has been accumulated, from microscopic molecular and cellular information to macroscopic individual characteristics. In order to exploit the wealth of information from the huge data space, it is essential to appropriately handle and analyze data with the knowledge of not only biology (of the targets) but also information science and statistics. In our laboratory, we aim to uncover the unknown relationships (missing links) between genes and biological functions through meta-integrative analysis techniques that comprehensively compare data obtained by different labs in a variety of conditions for different purposes.
+
+## Single-cell epigenome analysis
+
+- <u>**Kawaguchi RK**</u>, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J.  ["Learning single-cell chromatin accessibility profiles using meta-analytic marker genes."](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac541/6957249), *Briefings in Bioinformatics*, bbac541, 2022.
+- Sheu YJ, <u>**Kawaguchi RK**</u>, Gillis J, Stillman B. ["Prevalent and dynamic binding of the cell cycle checkpoint kinase Rad53 to gene promoters." ](https://elifesciences.org/articles/84320), *eLife*, 11:e84320, 2022.
+
 ## RNA structure analysis
 
-## Cell image classification
+- <u>**Kawaguchi R**</u>, Kiryu H, Iwakiri J and Sese J. ["reactIDR: evaluation of the statistical reproducibility of high-throughput structural analyses towards a robust RNA structure prediction"](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2645-4), BMC Bioinformatics 20 (Suppl 3):130, 2019.
+- <u>**Kawaguchi RK**</u> and Kiryu H. ["Genome-Wide RNA Secondary Structure Prediction"](https://link.springer.com/protocol/10.1007/978-1-0716-2768-6_3), RNA Structure Prediction, Methods in Molecular Biology 2586. (Protocol review)
 
-## Aging
-
+## Machine learning for small data in medical research
+- <u>**Kawaguchi RK**†</u>, Takahashi M*,†, et al. ["Assessing Versatile Machine Learning Models for Glioma Radiogenomic Studies across Hospitals"](10.3390/cancers13143611), Cancers (Basel), 13(14), 3611, 2021.
+- Takahashi S, et al. ["Fine-Tuning Approach for Segmentation of Gliomas in Brain Magnetic Resonance Images with a Machine Learning Method to Normalize Image Differences among Facilities"](10.3390/cancers13061415), Cancers (Basel), 13(6):1415, 2021.
