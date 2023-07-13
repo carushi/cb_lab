@@ -11,7 +11,7 @@
 
 
 
-<title>project.knit</title>
+<title>Seminar</title>
 
 <script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -365,48 +365,19 @@ div.tocify {
 
 
 
+<h1 class="title toc-ignore">Seminar</h1>
 
 </div>
 
 
-<p><br></p>
-<div id="俯瞰情報生物学研究室" class="section level2 col-md-12">
-<h2 class="col-md-12">俯瞰情報生物学研究室</h2>
-<p>生物学の分野ではDNAのシーケンシング技術の発明によりヒトゲノムが解読されてから、大量の情報が計測されるようになりました。それらはミクロな分子や細胞の情報から、マクロな個体レベルの情報まで多岐に渡ります。こうして得られた情報から新たな発見をするためには、ターゲットとなる生物の知識だけではなく、それらを解析するための情報科学や統計の知識が必要不可欠です。我々の研究室では、世界中で得られたデータを俯瞰的に比較解析するメタ統合解析技術によって、未知の遺伝子と生物の機能との関係性（ミッシングリンク）を明らかにすることを目指します。</p>
-<div id="一細胞エピゲノム解析" class="section level3">
-<h3>一細胞エピゲノム解析</h3>
-<p>エピゲノムはDNA上に見られる修飾情報のことで、そこから転写される遺伝子をダイナミックに制御することで、ヒトなどの多細胞生物においてはさまざまな組織や細胞種を生み出すために不可欠です。そんなエピゲノム情報を一細胞レベルで計測できる技術が、近年いくつも開発され。Single-cell
-Assay for Transposase Accessible Chromatin with Sequencing
-(scATAC-seq)と呼ばれる手法です。他にもDNAのメチル化を調べる手法（sn-m3C-seq）やヒストン修飾を認識する抗体を利用した手法（scCUT&amp;TAG）などの手法により、それぞれのDNA領域がどのような制御状態にあるのかを一細胞レベルで詳細に知ることができます。</p>
-<p>こうしたエピゲノム情報は、iPS細胞やES細胞などの多能性幹細胞の初期化過程において特に重要で、初期化前のエピゲノム状態の一部が初期化から逃れることで、同じ条件で作られた細胞であっても様々な機能の違いをもつことが知られています。こうした現象は「エピジェネティックメモリー」と呼ばれ、分化前の細胞状態が分化後にも影響を及ぼしたり、過去の感染や炎症、創傷などによってその後の細胞の反応が変化するなどの様々な生物学的な機能と関わっています。そこで私達は情報科学的なアプローチ、特にメタ統合解析と深層学習技術によって、ゲノム配列とエピジェネティクメモリーから生み出される遺伝子制御ネットワークの予測と理解を目指しています。</p>
-<p>参考文献:</p>
+<div id="section" class="section level3">
+<h3>2023</h3>
 <ul>
-<li>エピゲノムと生命　ＤＮＡだけでない「遺伝」のしくみ（ブルーバックス）<a
-href="https://www.amazon.co.jp/%E3%82%A8%E3%83%94%E3%82%B2%E3%83%8E%E3%83%A0%E3%81%A8%E7%94%9F%E5%91%BD-%EF%BC%A4%EF%BC%AE%EF%BC%A1%E3%81%A0%E3%81%91%E3%81%A7%E3%81%AA%E3%81%84%E3%80%8C%E9%81%BA%E4%BC%9D%E3%80%8D%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF-%E3%83%96%E3%83%AB%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E5%A4%AA%E7%94%B0%E9%82%A6%E5%8F%B2-ebook/dp/B00POVFSA2">[link]</a></li>
-<li><strong>Kawaguchi RK</strong>, Tang Z, Fischer S, Rajesh C, Tripathy
-R, Koo PK, Gillis J. <em>Briefings in Bioinformatics</em>, 2022. <a
-href="https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac541/6957249">[link]</a></li>
-<li>Sheu YJ, <strong>Kawaguchi RK</strong>, Gillis J, Stillman B.
-<em>eLife</em>, 2022. <a
-href="https://elifesciences.org/articles/84320">[link]</a></li>
+<li>06.27 小嶋泰弘
+「深層生成モデルによる共変量依存的細胞状態ダイナミクスの推定」</li>
+<li>9月開催予定？ Coming soon.</li>
+<li>11月開催予定 Coming soon.</li>
 </ul>
-</div>
-<div id="小規模不均一データの機械学習と医療dx" class="section level3">
-<h3>小規模不均一データの機械学習と医療DX</h3>
-<p>医療の分野では患者さんの様々な情報から、最適な治療方針や予後の予測を行い、よりよい医療が提供されることを目指しています。このとき、患者さんのバックグラウンド情報や、血液から得られた遺伝子変異やトランスクリプトーム、画像などのマルチモダリティな情報を同時に扱う必要があります。さらに医療情報の解析には、個人情報の保護や十分なデータ数の確保が難しい点、そして病院横断的なデータの非均一性などの問題があることが知られています。
-私達の研究室では、こうした医療データの適切な規格化、機械学習の適応プラットフォームの確立と、それらの病院横断的な頑健性の検証を進めています。</p>
-<p>参考文献：</p>
-<ul>
-<li><strong>Kawaguchi RK</strong>†, Takahashi M†, Miyake M, Kinoshita M,
-Takahashi S, Ichimura K, Hamamoto R, Narita Y, Sese J. <em>Cancers</em>,
-2021. <a
-href="https://www.mdpi.com/2072-6694/13/14/3611">[link]</a></li>
-<li>Takahashi S, … <strong>Kawaguchi R</strong>, … et
-al. <em>Cancers</em>, 2021. <a
-href="https://www.mdpi.com/2072-6694/13/6/1415">[link]</a></li>
-</ul>
-<p>これ以外にも、RNA二次構造や脂質などの分子レベルのものから、発達過程の進化や老化などの個体レベルの事象のさらなる理解を、情報科学を駆使することにより推し進めていきます。</p>
-</div>
 </div>
 
 
