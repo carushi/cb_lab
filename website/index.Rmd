@@ -16,7 +16,7 @@ title: "Welcome to Kawaguchi Lab"
 
 <div class="card">
   <div class="card-header">お知らせ</div>
-  <div class="card-body">河口研究室では[CiRA夏季インターン生](https://www.cira.kyoto-u.ac.jp/j/education/internship.html)・オフィスアシスタント等を募集しています。ご興味をお持ちの方は *rkawaguchi-g at cira.kyoto-u.ac.jp* までご連絡ください。学振特別研究員やコラボレーションに興味のある学生の方も、ぜひお気軽にご連絡ください。</div>
+  <div class="card-body">河口研究室ではオフィスアシスタント等を募集しています。ご興味をお持ちの方は *rkawaguchi-g at cira.kyoto-u.ac.jp* までご連絡ください。学振特別研究員やコラボレーションに興味のある学生の方も、ぜひお気軽にご連絡ください。</div>
 </div>
 
 

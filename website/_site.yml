@@ -9,6 +9,8 @@ navbar:
         href: project.html
       - text: "Publication" 
         href: publication.html
+      - text: "Seminar"
+        href: seminar.html
       - text: "Software"
         href: software.html
       - text: "Link"
@@ -19,6 +21,8 @@ navbar:
           href: index_en.html 
         - text: "Members"
           href: members_en.html
+        - text: "Project"
+          href: project_en.html
         - text: "Publication"
           href: publication_en.html
     search: true      
