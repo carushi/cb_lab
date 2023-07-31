@@ -9,7 +9,6 @@ ink-citations: yes
 
 ## Research
 * [Meta scATAC server](https://gillisweb.cshl.edu/Meta_scATAC/)
-    * BICCN由来のアトラスを含む7つのマウス脳一細胞ATAC-seqと深層学習により予測された細胞種特異的クロマチン状態のデータベース。5つの細胞種アノテーションのためのマーカーセットもダウンロードできる。
-  ![](figures/research_figures/meta_scatac.png)
-  ![](figures/research_figures/meta_scatac_gb.png)
+  - ![](figures/research_figures/meta_scatac.png)
+  - ![](figures/research_figures/meta_scatac_gb.png)
 

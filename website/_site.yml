@@ -1,5 +1,5 @@
 navbar:
-    title: "河口研究室@CiRA"
+    title: "KawaguchiCBLab"
     left:
       - text: "Home"
         href: index.html
@@ -11,10 +11,6 @@ navbar:
         href: publication.html
       - text: "Seminar"
         href: seminar.html
-      - text: "Software"
-        href: software.html
-      - text: "Link"
-        href: link.html
       - text: "ENGLISH"
         menu:
         - text: "Home"
@@ -25,6 +21,12 @@ navbar:
           href: project_en.html
         - text: "Publication"
           href: publication_en.html
+      - text: "Code of Conduct"
+        href: CodeOfConduct.html
+      - text: "Software"
+        href: software.html
+      - text: "Link"
+        href: link.html
     search: true      
 output: 
   html_document:

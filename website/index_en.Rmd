@@ -9,7 +9,7 @@ title: "Welcome to Kawaguchi Lab"
 ![](figures/general_figures/lab_intro_en.png)
 </p>
 
-Computational biology lab towards understanding a ubiquitous mechanism to regulate intra- and inter-cellullar variations.
+Computational biology lab at iPS Cell Research and Application (CiRA), Kyoto University, towards understanding a ubiquitous mechanism to regulate intra- and inter-cellullar variations.
 
 
 # {.row}
@@ -25,6 +25,7 @@ Please contact me via *rkawaguchi-g at cira.kyoto-u.ac.jp* if you have an intere
 <br/>
 
 ## History {.col-md-9}
+- 2023.07.31 Updated.
 - 2023.07.13 Updated.
 - 2023.04.20 Updated.
 - 2023.03.08 Updated.
