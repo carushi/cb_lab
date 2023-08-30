@@ -12,7 +12,7 @@ ink-citations: yes
 - [個人サイト](https://sites.google.com/site/cawatchm/)
 - [google scholar](https://scholar.google.com/citations?user=BLtM6hoAAAAJh)
 - [carushi@github](https://github.com/carushi)
-- [Twitter](https://twitter.com/can_pyong)
+- [𝕏](https://twitter.com/can_pyong)
 
 ```{r, echo=FALSE}
 eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
@@ -21,10 +21,13 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 ### スタッフ
 
 - 森本 由起（秘書・技術補佐）
+- Jane Doe（外来研究員）
 
 ### 学生
 
-- Jane Doe
+- 伊藤 恵理（インターン）
+- ツッカ タドウ（インターン）
+- John Doe（インターン）
 
 ### 卒業生
 

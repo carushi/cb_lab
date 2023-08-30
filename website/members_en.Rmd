@@ -13,7 +13,7 @@ ink-citations: yes
 - [Personal Website](https://sites.google.com/site/cawatchm/)
 - [Google scholar](https://scholar.google.com/citations?user=BLtM6hoAAAAJh)
 - [carushi@github](https://github.com/carushi)
-- [Twitter](https://twitter.com/can_pyong)
+- [𝕏](https://twitter.com/can_pyong)
 
 ```{r, echo=FALSE}
 eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
@@ -22,10 +22,13 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 ### Staffs
 
 - Yuki Morimoto (Technician and secretary)
+- Jane Doe (Visiting scholar)
 
 ### Students
 
-- Jane Doe
+- Eri Ito (summer intern)
+- Thadoe Thukha (summer intern)
+- John Doe (summer intern)
 
 ### Alumni
 
