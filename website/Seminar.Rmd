@@ -9,6 +9,14 @@ output:
 ---
 
 ### 2023
-* 06.27 小嶋泰弘 「深層生成モデルによる共変量依存的細胞状態ダイナミクスの推定」
-* 9月開催予定？ Coming soon.
-* 11月開催予定 Coming soon.
+* 06.27
+  * Yasuhiro Kojima (小嶋 泰弘) 「深層生成モデルによる共変量依存的細胞状態ダイナミクスの推定」
+* 09.22
+  * Yuki Hoshino（星野 悠樹）「Academia, public sector, and business consultancy」
+* 10.30
+  * Koki Tsuyuzaki（露崎 弘毅）「テンソル分解と最適輸送で繋ぐ異種バイオデータの統合解析」
+* 11.14
+  * Haruka Ozaki（尾崎 遼）「TBA」
+* 11.21
+  * Kentaro Tomii （富井 健太郎）「TBA」
+* 12月　開催予定？

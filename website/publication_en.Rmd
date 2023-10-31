@@ -9,14 +9,13 @@ output:
 ---
 
 ### Journal article
+* "The transcriptional legacy of developmental stochasticity." Ballouz S†, <u>**Kawaguchi RK**†</u>, et al. Accepted in *Nature Communications*. [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2019.12.11.873265v1)
+* "Comprehensive in virio structure probing analysis of the influenza A virus identifies functional RNA structures involved in viral genome replication." Takizawa N\*, <u>**Kawaguchi RK**</u>. *Computational and Structural Biotechnology Journal*, 21:5259-72, 2023. [[link]](https://www.sciencedirect.com/science/article/pii/S2001037023003926)[[bioRxiv]](https://www.biorxiv.org/content/10.1101/2020.03.05.975870v2)
 * "Learning single-cell chromatin accessibility profiles using meta-analytic marker genes." <u>**Kawaguchi RK**</u>, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J. *Briefings in Bioinformatics*, bbac541, 2022. [[link]](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac541/6957249) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.04.01.438068v2)
 * "Prevalent and dynamic binding of the cell cycle checkpoint kinase Rad53 to gene promoters." Sheu YJ, <u>**Kawaguchi RK**</u>, Gillis J, Stillman B. *eLife*, 11:e84320, 2022. [[link]](https://elifesciences.org/articles/84320) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.05.23.445333v3)
 
-* List of older papers is available [here](https://scholar.google.com/citations?user=BLtM6hoAAAAJ)
+* The list of older papers is available [here](https://scholar.google.com/citations?user=BLtM6hoAAAAJ).
 
-### Preprint
-* Ballouz S\*, <u>Kawaguchi RK\*</u>, et al. [[link]](https://www.biorxiv.org/content/10.1101/2019.12.11.873265v1)
-* Takizawa N, ... <u>Kawaguchi RK</u>, ... et al. [[link]](https://www.biorxiv.org/content/10.1101/2020.03.05.975870v2)
 
 ### Review
 * <u>**Kawaguchi RK**</u> and Kiryu H. RNA Secondary Structure Alteration Caused by Single Nucleotide Variants. In: RNA Structure Prediction. Methods in Molecular Biology, vol 2586. Humana, New York, 2023. [[link]](https://doi.org/10.1007/978-1-0716-2768-6_7)
@@ -24,6 +23,7 @@ output:
 
 ### Book
 * RNA structure prediction Edited by <u>**Kawaguchi RK**</u> and Iwakiri J. Methods in molecular biology, Humana New York, 2023. [[link]](https://doi.org/10.1007/978-1-0716-2768-6)
+* The list goes on [[here]](https://researchmap.jp/cawatchm).
 
 ### Presentation
 * List of presentations is available [here](https://sites.google.com/site/cawatchm/presentation)

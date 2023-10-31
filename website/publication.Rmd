@@ -11,14 +11,14 @@ output:
 
 
 ### 査読付き論文
+* "The transcriptional legacy of developmental stochasticity." Ballouz S†, <u>**Kawaguchi RK**†</u>, et al. Accepted in *Nature Communications*. [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2019.12.11.873265v1)
+* "Comprehensive in virio structure probing analysis of the influenza A virus identifies functional RNA structures involved in viral genome replication." Takizawa N\*, <u>**Kawaguchi RK**</u>. *Computational and Structural Biotechnology Journal*, 21:5259-72, 2023. 
+[[link]](https://www.sciencedirect.com/science/article/pii/S2001037023003926)[[bioRxiv]](https://www.biorxiv.org/content/10.1101/2020.03.05.975870v2)
 * "Learning single-cell chromatin accessibility profiles using meta-analytic marker genes." <u>**Kawaguchi RK**</u>, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J. *Briefings in Bioinformatics*, bbac541, 2022. [[link]](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac541/6957249) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.04.01.438068v2)
 * "Prevalent and dynamic binding of the cell cycle checkpoint kinase Rad53 to gene promoters." Sheu YJ, <u>**Kawaguchi RK**</u>, Gillis J, Stillman B. *eLife*, 11:e84320, 2022. [[link]](https://elifesciences.org/articles/84320) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.05.23.445333v3)
  
 * 過去の論文については[こちら](https://scholar.google.com/citations?user=BLtM6hoAAAAJ)
 
-### プレプリント
-* Ballouz S\*, Kawaguchi RK\*, et al. [[link]](https://www.biorxiv.org/content/10.1101/2019.12.11.873265v1)
-* Takizawa N, ... Kawaguchi RK, ... et al. [[link]](https://www.biorxiv.org/content/10.1101/2020.03.05.975870v2)
 
 ### 総説
 * **Kawaguchi RK** and Kiryu H. RNA Secondary Structure Alteration Caused by Single Nucleotide Variants. In: RNA Structure Prediction. Methods in Molecular Biology, vol 2586. Humana, New York, 2023. [[link]](https://doi.org/10.1007/978-1-0716-2768-6_7)
@@ -28,6 +28,11 @@ output:
 * RNA structure prediction Edited by **Kawaguchi RK** and Iwakiri J.Methods in molecular biology, Humana New York, 2023. [[link]](https://doi.org/10.1007/978-1-0716-2768-6)
 
 ### 口頭発表
+* 2023.10.07: 生命情報科学若手の会第15回年会（招待講演）河口 理紗
+* 2023.09.08: IIBMP2023ワークショップ（環境・進化・多様性・非モデル生物） 河口 理紗
+* 2023.08.22: RNAインフォマティクス道場2023 河口 理紗
+* 2023.08.04: 統計物理学国際会議（STATPHYS28）サテライトミーティング-Statistical Physics and Information-Processing in Living Systems 河口 理紗
+* 2023.06.18: 第5回メディカルAI学会年会「一細胞エピゲノム解析のメタ統合解析による細胞分化メカニズムの関係」
 * 2022.12.10: GTPハッカソン「データサイエンティストが紐解く老化と発達の切っても切れない関係」河口　理紗 [[link]](https://en.gtp-project.net/20221209-11)
 * 2022.12.07: 定量生物学の会　チュートリアル「離散的配列情報と高次元生命情報をつなぐ統計と機械学習」河口　理紗 [[link]](https://q-bio.jp/index.php?title=2022_10thqbio_tutorial)
 * 2022.12.02: 第45回日本分子生物学会年会　GTPと疾患治療「GTPセンサー分子の代謝バランス制御機構とヒト表現型へ及ぼす影響の解明」＠幕張メッセ　河口　理紗

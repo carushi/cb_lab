@@ -24,6 +24,7 @@ title: "Welcome to Kawaguchi Lab"
 <br/>
 
 ## 新着情報 {.col-md-9}
+- 2023.10.30 Seminarアップデート
 - 2023.08.30 CoC&Membersアップデート
 - 2023.07.31 Code of conductアップデート
 - 2023.07.13 Seminarアップデート

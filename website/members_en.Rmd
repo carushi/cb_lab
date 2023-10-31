@@ -1,5 +1,8 @@
 ---
 title: ""
+html_document:
+    include:
+      before_body: ga_header.html
 ink-citations: yes
 ---
 
@@ -22,17 +25,16 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 ### Staffs
 
 - Yuki Morimoto (Technician and secretary)
-- Jane Doe (Visiting scholar)
 
 ### Students
 
-- Eri Ito (summer intern)
-- Thadoe Thukha (summer intern)
-- John Doe (summer intern)
+- Jane Doe
 
 ### Alumni
-
-- Jane Doe
+- Eri Ito (Summer intern)
+- Thadoe Thukha (Summer intern)
+- Yan Cui (Summer intern)
+- Mona Sheta (Visiting scholar)
 
 ## {.col-md-4 }
 

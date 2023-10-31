@@ -21,17 +21,18 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 ### スタッフ
 
 - 森本 由起（秘書・技術補佐）
-- Jane Doe（外来研究員）
 
 ### 学生
 
-- 伊藤 恵理（インターン）
-- ツッカ タドウ（インターン）
-- John Doe（インターン）
+- Jane Doe
 
 ### 卒業生
 
-- Jane Doe
+- Mona Sheta （外来研究員）
+- 伊藤 恵理（インターン）
+- ツッカ タドウ（インターン）
+- 崔 岩（インターン）
+
 
 ## {.col-md-4 }
 
