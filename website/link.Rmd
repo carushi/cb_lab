@@ -1,7 +1,13 @@
 ---
 title: "Link"
-ink-citations: yes
+
+output: 
+  html_document:
+   toc: true
+   toc_float: true
+  toc_depth: 3
 ---
+
 
 ## Affiliation
 * [河口研究室@CiRA](https://www.cira.kyoto-u.ac.jp/j/research/rkawaguchi_summary.html)
@@ -11,4 +17,18 @@ ink-citations: yes
 * [Meta scATAC server](https://gillisweb.cshl.edu/Meta_scATAC/)
   - ![](figures/research_figures/meta_scatac.png)
   - ![](figures/research_figures/meta_scatac_gb.png)
+
+## Talk videos
+* 2023
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6Z3-XXlIG2E?si=jGPqCgoukI76O3cC" frameborder="0" allowfullscreen></iframe>
+
+* 2022
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jmrGXam7Hys?si=zF17T23Fl9BZoFuj
+" frameborder="0" allowfullscreen></iframe>
+
+* 2020
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_cdr7B04ub0?si=PNtXav-oARbwWryw" frameborder="0" allowfullscreen></iframe>
 
