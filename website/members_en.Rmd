@@ -32,7 +32,7 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 
 ### Alumni
 - Eri Ito (Summer intern)
-- Thadoe Thukha (Summer intern)
+- [Thadoe Thukha (Summer intern)](https://www.cira.kyoto-u.ac.jp/e/pressrelease/newsletter/231108-000001.html)
 - Yan Cui (Summer intern)
 - Mona Sheta (Visiting scholar)
 
