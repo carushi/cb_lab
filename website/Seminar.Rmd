@@ -20,3 +20,5 @@ output:
   * Haruka Ozaki（尾崎 遼）「トランスクリプトームデータを解読する試み」
 * 11.21
   * Kentaro Tomii（富井 健太郎）「AlphaFoldのタンパク質構造モデルを利用した創薬研究等支援に向けたデータベースPoSSuMAF」
+* 12.15
+  * Koji Tsuda（津田 宏治）「機械学習・AIを用いた新たな分子・物質の開発」
