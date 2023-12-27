@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Essay</title>
+
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link href="site_libs/bootstrap-5.2.0/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-5.2.0/bootstrap.bundle.min.js"></script>
+<link href="site_libs/Rubik-0.4.4/font.css" rel="stylesheet" />
+<script src="site_libs/bs3compat-0.4.0.9000/transition.js"></script>
+<script src="site_libs/bs3compat-0.4.0.9000/tabs.js"></script>
+<script src="site_libs/bs3compat-0.4.0.9000/bs3compat.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">KawaguchiCBLab</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="members.html">Members</a>
+</li>
+<li>
+  <a href="project.html">Project</a>
+</li>
+<li>
+  <a href="publication.html">Publication</a>
+</li>
+<li>
+  <a href="seminar.html">Seminar</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    ENGLISH
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="index_en.html">Home</a>
+    </li>
+    <li>
+      <a href="members_en.html">Members</a>
+    </li>
+    <li>
+      <a href="project_en.html">Project</a>
+    </li>
+    <li>
+      <a href="publication_en.html">Publication</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="CodeOfConduct.html">Code of Conduct</a>
+</li>
+<li>
+  <a href="software.html">Software</a>
+</li>
+<li>
+  <a href="link.html">Link</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JXB9EC6BYX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JXB9EC6BYX');
+</script>
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Essay</h1>
+
+</div>
+
+
+<div id="section" class="section level3">
+<h3>2023.12.21</h3>
+<div
+id="一卵性四つ子のアルマジロの転写パターンに残る発達過程の確率的ノイズの検出"
+class="section level4">
+<h4>一卵性四つ子のアルマジロの転写パターンに残る発達過程の確率的ノイズの検出</h4>
+<ul>
+<li>The transcriptional legacy of developmental stochasticity.” Ballouz
+S†, Kawaguchi RK†, Pena MT, Fischer S, Crow M, French L, Knight FM,
+Adams LB, Gillis J. Nature Communications, 14, 7226, 2023. <a
+href="https://www.nature.com/articles/s41467-023-43024-5">[link]</a> <a
+href="https://www.biorxiv.org/content/10.1101/2019.12.11.873265v1">[bioRxiv]</a></li>
+</ul>
+<p>11月に前所属であるCSHLで取り組んでいた仕事がPublishされました。この論文では、ココノオビアルマジロというかなり珍しい実験動物を対象として、「細胞運命の確率的運河化」という面白いアイディアの検出を目指しました。
+論文中の画像については、<a
+href="https://creativecommons.org/licenses/by/4.0/">CC-by
+5.0</a>で上記リンクより取得しています。</p>
+<p><img src="figures/general_figures/essay_231221_fig1.png" /></p>
+</div>
+<div id="背景" class="section level4">
+<h4>背景</h4>
+<p>私が当時所属していたCold Spring
+Harbor研究所のGillis研究室では、Non-model organism
+day（非モデル生物の日）と称して、様々な珍しい生物の特性とそれを活かした研究の可能性を議論する日がありました。確かゲノムサイズがとても大きいネズミとか、カブトガニの話とかをしていたような気がします。そんな中、共同第一著者のSaraがココノオビアルマジロに着目するようになったのは、こういったイベントを通してでした。</p>
+<p>ココノオビアルマジロは異節類に属しており、ナマケモノやアリクイに近い哺乳類の仲間です。ヒトと同じく胎盤を持ち、メスではXX、オスではXYの染色体のパターンを示し、メスは子供を母乳で育てます（<a
+href="https://gaia-note.com/book/dasypus-novemcinctus/">参考：基本的な生態</a>)。そして、このココノオビアルマジロ（を含む同じDasypusに属するアルマジロ）が持つとてもユニークな特性が、<strong>一卵性の兄弟を生む多胎化</strong>（Polyembryony）です。特に、ココノオビアルマジロは一卵性の四つ子を産むことが知られており、実際の<a
+href="https://www.statnews.com/2019/12/20/armadillo-quadruplets-genetic-determinism/">赤ちゃんの兄弟の写真と論文の紹介レビュー</a>をここから見ることができますが、メス四匹もしくはオス四匹の兄弟になります。</p>
+<p>このような一卵性の兄弟を調べることで、果たしてどんなことがわかるでしょうか？
+一卵性の双子の場合、同じ生殖細胞から（一部新規に体細胞変異が挿入されることを除けば）基本的にほぼ同一の遺伝情報が引き継がれますが、二卵性の双子では別々の組み換えパターンを獲得した遺伝情報が伝わるため、同時に生まれてくる兄弟とも言われます。そこで、こういった一卵性の双子・二卵性の双子、そして兄弟間で同一家庭や離れて暮らす個人間を比較することで、様々な形質や疾患の発生などが、どの程度遺伝要因や環境要因に依存するかを調べることに利用されてきました（<a
+href="https://natgeo.nikkeibp.co.jp/nng/article/20120118/296619/">参考：日本の双生児研究</a>）。こういった研究により、ガンや老化、自己免疫疾患など様々な形質や疾患の発生が、その２つの要因だけでは説明できない可能性があると示唆されています
+<a
+href="https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-014-0060-z">(Castillo-Fernandez
+JE, et al. 2014.)</a>。</p>
+<p>ここで挙げられる遺伝・環境要因以外で形質の決定に関わる要素としては、例えばヒトでは一卵性双生児であっても体細胞変異
+<a href="https://doi.org/10.1038/s41588-020-00755-1">(Jonsson H, et
+al. Nat Genet, 2021.)</a>や胎内環境の違い <a
+href="https://link.springer.com/article/10.1007/s10519-016-9782-6">(Marceau
+K, et al. Behaviour Genetics, 2016)</a>
+が存在することなどがわかっていますが、今回我々のグループがアルマジロモデルを使って着目したのは、<strong>確率的な変動、いわゆるノイズ</strong>というものの影響です。
+確率的な変動によって細胞・個体の運命決定がされる、確率的カナリゼーション＝運河化という現象を、アルマジロというヒトに近い哺乳類において検証することで、遺伝・環境以外の要因が様々な形質の多様性に及ぼす影響について検証していきます。</p>
+</div>
+<div id="x染色体の不活性化" class="section level4">
+<h4>X染色体の不活性化</h4>
+<p>哺乳類のメスでは、両親から受け継がれたX染色体の一本が不活性化する、XCI（X
+chromosome
+inactivation）というメカニズムが存在します。これは、雌雄の遺伝子発現量を均一にする遺伝子量補償と深く関わるメカニズムです。こういったメカニズムには、非コードRNAであるXist遺伝子の発現が重要であることがわかっており、近年はSHARP/SPENなどのタンパク質との関連によるダイナミックな染色体の制御が起きていることが示唆されていますが
+<a href="https://www.nature.com/articles/s41594-022-00739-1">(Jachowicz
+JW, et al. Nat Struct &amp; Mol Biol,
+2022)</a>、不活性化のタイミングや時系列的な制御などその全貌は未だ明らかになっていません。</p>
+<p>さて、この不活性化において染色体が選ばれるメカニズムは、一部の哺乳類を除けば基本的にランダムであるため、対立遺伝子の発現量比は1:1になることが知られています。よってX染色体上の遺伝子のアレル特異的発現を測ると、その値は0.5を平均とする分布に従います。XCIが終結するタイミングは細胞が複数存在する着床前後であると言われ、細胞数が少ないとこの平均のばらつきは大きく（2細胞の場合は以下図参照）、細胞数が多いと平均のばらつきは小さくなりやすいと考えられます。一度不活性化された染色体のパターンは子孫となる細胞にもエピジェネティックな制御を介して引き継がれるため、元となる細胞数に応じたばらつきをもって分布することが予想されます。</p>
+<p><img src="figures/general_figures/essay_231221_fig2.png" /></p>
+<p>そこで我々は、このX染色体の不活性化のパターンが（特定の細胞の系統が急激に増えるといったような）偏りなく成熟個体の血球細胞へ引き継がれ、かつバルク解析では十分な細胞数がサンプリングされていると仮定することで、X染色体の不活性化が起きたタイミングを推定することを試みました。
+不活性化される染色体の選択が1:1で起きるとすれば、観測される不活性化の偏りは平均が0.5の二項分布で近似することができます（Fig.1F）。そして、不活性化が終結したタイミングで何個の細胞が独立に不活性化を引き起こしたかを、二項分布における試行回数nと対応させることで、もっともらしいnを探すことにしました。</p>
+</div>
+<div id="アルマジロのトランスクリプトーム解析におけるチーム体制"
+class="section level4">
+<h4>アルマジロのトランスクリプトーム解析におけるチーム体制</h4>
+<p>私達は以上のような目標のもと、数年に渡ってサンプルされたアルマジロの遺伝子発現情報を解析することで、同じ環境下で育てられた遺伝的に同一な四つ子であっても個体独自のアイデンティティともいうべき、独自の発現パターンを持っているかを検証することにしました。</p>
+<p>アルマジロの育成とサンプルの収集は、ルイジアナに位置する国立ハンセン病プログラム（NHDP）とアーカンソー州オザーク大学（←実際の育成ファシリティの場所）に所属する共同研究者らによって行われ、CSHLとNew
+York Genome
+Centreのシーケンスコアによって送られてきたサンプルのRNAとDNAのシーケンシングが行われました。その後Saraの主導により得られたハプロタイプ情報をもとに、アレル特異的発現の定量化と遺伝子機能解析、個体予測プログラムのデザインが行われています。</p>
+<p>プレプリントを見ていただけるとわかるかと思いますが、私がこのプロジェクトに参加したのは既にサンプルが収集されたあとで、データ解析を引き継ぎ、主に数理シミュレーションによる解析を担当しています。二項分布によるアレル特異的発現のモデル化や、確率的運河化により引き起こされるハプロ不全を説明するためのモデル設計・シミュレーションを実施し、アルマジロで実際に観測されたアレル不均衡とそのばらつきが、形質や疾患の発生にどのような影響を及ぼすか議論を行いました。
+つまり、私自身は未だにココノオビアルマジロを生で見たことがありません…！
+機会があればテキサスに見に行きたいと思っています（最近は温暖化で南部からニューヨークまで進出してきているそうですが）。</p>
+</div>
+<div
+id="アルマジロのトランスクリプトームに見られたアレル特異的発現の多様性"
+class="section level4">
+<h4>アルマジロのトランスクリプトームに見られたアレル特異的発現の多様性</h4>
+<p>実際に、我々がメスの兄弟においてSNP（一塩基多型）を利用して観測された不活性化の偏りとシミュレーション結果を比較してみると、約25細胞のタイミングで不活性化が起きたときに生み出される分散と最も近いことがわかりました（Fig.
+2B）。リファレンスバイアスなどの影響を考慮しても、推定された細胞集団は10-100程度になります。アルマジロにおける胚の細胞数に関する大規模なサーベイ研究は残念ながらありませんが、例えばマウスでは内部細胞塊（Inner
+Cell
+Mass）からエピブラストに至る際の細胞数は12-600前後（E6.5）との報告がなされています。またアルマジロのTwinningの観察では、ブラストシストが着床後4つに分裂する様子が見られており、推定されたタイミングと比較してX染色体の不活性化はその段階ですでに終結していると考えられます。しかし、実際には個体間ではより大きな不活性化のばらつきの運河化が見られたことから、分裂前に既に少ない細胞集団によって、四つ子独自の系統が形成されている可能性が示唆されています。</p>
+<p>今回の結果は、例えば特定の細胞の系統が今回対象とした血球細胞に多く含まれていた場合などには、母集団の細胞数の過小評価となる可能性もあり、conservative=保守的な推定値であると言えます。ともあれ、<strong>我々は成熟した個体を利用して、世代を超えて細胞間で受け継がれるエピゲノム状態のシグナルの解析から、発生の初期段階において「確率的に生み出されたばらつき」の影響を検出することができた</strong>、と考えられます。</p>
+<p>また、数は少なくはありましたが、常染色体上においても数年に渡って保存されたアレル不均衡パターンが検出された領域が存在していました。X染色体の不活性化とは異なるメカニズムとは考えられますが、何らかのエピジェネティックな制御が、長期に渡って特定の個体のみにアレル特異的発現のゆらぎを引き起こしている可能性が、我々の解析結果からは示唆されています。</p>
+</div>
+<div id="おわりに-アレル特異的発現が及ぼす様々な影響"
+class="section level4">
+<h4>おわりに ― アレル特異的発現が及ぼす様々な影響</h4>
+<p>このように、同じ遺伝的配列を持っていても確率的に対立遺伝子の発現がばらつく現象は、不完全なハプロ不全の疾患などと深く関連している可能性があります。例えば、神経に関連するウィリアムズ症候群や造血に関連するモノマック症候群など、片方の染色体が変異などにより機能を失うことで発症する、様々なハプロ不全の疾患が知られています。しかし、疾患によっては同じ有害な変異を持つキャリアであっても、発症するケースとしないケースが確率的に存在する場合などが知られています。</p>
+<p>我々の研究で示された確率的なアレル不均衡の運河化は、<strong>例え遺伝・環境要因が同じだったとしても、発達の初期段階のゆらぎによって、最終的に大きな形質の違いを生み出す可能性</strong>を示唆しています。またX染色体の不活性化のばらつきに限っていえば、女性に多いと言われる様々な自己免疫疾患の中にも、このような確率的なばらつきに起因するものがあるのではないかと考えられています。</p>
+<p>さらにiPS細胞においても、不活性化されたX染色体が侵食され不安定化するErosionと呼ばれる問題や、発生段階モデル構築のための正常な再活性化・再不活性化を制御する技術が求められており、X染色体の不活性化のメカニズムは大きな注目を集めています。当研究室でも現在、iPS細胞における確率的な発現ゆらぎに注目して、初期化メカニズムの理解のための様々な研究を進めているところです。</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
