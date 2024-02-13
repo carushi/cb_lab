@@ -21,6 +21,7 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 ### スタッフ
 
 - 森本 由起（秘書・技術補佐）
+- 大久保 周子（外来研究員）
 
 ### 学生
 

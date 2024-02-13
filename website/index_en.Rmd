@@ -18,13 +18,14 @@ Computational biology lab at iPS Cell Research and Application (CiRA), Kyoto Uni
   <div class="card-header">News</div>
   <div class="card-body">
   We are recruiting Office Assistant students of Kyoto University.
-Please contact me via *rkawaguchi-g at cira.kyoto-u.ac.jp* if you have an interest. We would like to welcome research interns and JSPS research fellows for collaboration as well.
+Please contact me via *rkawaguchi-g at cira.kyoto-u.ac.jp* if you have an interest. We would like to welcome <a href="https://www.cira.kyoto-u.ac.jp/e/education/internship.html">research interns</a> and JSPS research fellows for collaboration as well.
 </div>
 </div>
 <br/>
 <br/>
 
 ## History {.col-md-9}
+- 2024.02.13 CiRA internship application is open.
 - 2023.11.13 Updated.
 - 2023.10.30 Updated.
 - 2023.08.30 Updated.

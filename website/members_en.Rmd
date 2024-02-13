@@ -25,6 +25,7 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 ### Staffs
 
 - Yuki Morimoto (Technician and secretary)
+- Chikako Okubo  (Visiting researcher)
 
 ### Students
 
