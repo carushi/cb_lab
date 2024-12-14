@@ -22,6 +22,9 @@
 <script src="site_libs/bs3compat-0.4.0.9000/transition.js"></script>
 <script src="site_libs/bs3compat-0.4.0.9000/tabs.js"></script>
 <script src="site_libs/bs3compat-0.4.0.9000/bs3compat.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -212,6 +215,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -219,6 +285,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -249,6 +325,9 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="seminar.html">Seminar</a>
+</li>
+<li>
+  <a href="essay.html">Essay</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -306,29 +385,35 @@ $(document).ready(function () {
 </div>
 
 
-<div id="section" class="section level3">
-<h3>2024.12.02</h3>
+<div id="異動" class="section level3">
+<h3>2024.12.02 異動</h3>
 <div id="東京大学大学院薬学系研究科の准教授に就任しました"
 class="section level4">
 <h4>東京大学大学院薬学系研究科の准教授に就任しました</h4>
 <p>産休のこともあり綱渡りの毎日でしたが、この度無事に東京大学薬学系に本務が異動しました。昇進です。
-新たなプロジェクトなども立ち上げていこうと思っていますので、気持ち新たに頑張りたいと思います。
+新たなプロジェクトなども立ち上げていこうと思っていますので、フレッシュな気持ちで頑張りたいと思います。
 関東・関西を定期的に行き来することになりますので、どちらの皆様もぜひお声がけください。</p>
-<p>また、京都大学iPS細胞研究所はクロスアポイントメントで継続できることになりましたので、インターンの受け入れなども可能ですが、もし入学希望の学生さんがいらっしゃいましたら東大の方での受験をお願いすることになります。
-もし受験をお考えの方がいましたら、東大・京大どちらでもお会いできますので、お気軽にご連絡ください。</p>
+<p>また、京都大学iPS細胞研究所の研究室はクロスアポイントメントで継続できることになりましたので、インターンの受け入れなども可能ですが、もし入学希望の学生さんがいらっしゃいましたら原則的には東大の方での受験をお願いすることになると思います。
+もし受験をお考えの方がいましたら、東大・京大どちらでもお会いできますので、お気軽にご連絡ください。
+<br></p>
 </div>
 </div>
-<div id="section-1" class="section level3">
-<h3>2024.10.31</h3>
+<div id="出産" class="section level3">
+<h3>2024.10.31 出産</h3>
 <div id="長男が生まれました" class="section level4">
 <h4>長男が生まれました</h4>
-<p>明日から職場復帰の節目ということもあり、8月に待望の長男が生まれたことについて少し触れたいと思います。彼は予定日の1日前に3000g超えで誕生し、その後2ヶ月で体重が二倍になるなど、お腹の中にいるときからずっと順調に成長してくれています。抱っこ要求や理由もなくぐずったりすることもなく本当に良い子で、もちろん頻回の授乳など育児しながらの生活は、以前とは比べ物にならないほど大変ではありますが、少し拍子抜けというか、安心した部分もあります。
-私たち夫婦は同い年の研究者同士で、分野は少しかすっている程度でお互いがかなり独立に近い立ち位置なのもあり、中々すり合わせに苦労を重ねてきました。2022年まで私はアメリカで単身赴任状態でポスドクをしていましたが、特にニューヨークではコロナ禍への突入も早く日本との行き来も想定よりはるかに難しくなりました。行く前には近くにこんな大学もあるよ、こんな研究している人もいるよと手を変え品を変え勧誘していましたが、最終的に夫が数ヶ月留学したのは欧州で完全に作戦は失敗しました。ただ、近くの研究所でセミナーついでに長期滞在したり、新婚旅行と称して日本からは行きづらい場所へもいろいろ行くことができて良かったです。
-帰国後もポジションの関係で国内別居状態ではありましたが、夫がその点ではとても歩み寄ってくれて、奇跡的なタイミングでした。11月からは職場で提供されている一時保育を利用しつつ、職場に復帰し、12月からは保育園に入れる予定です。これからはプライベートの時間も大切にしつつ、仕事のペースを掴んでいければと思います。</p>
+<p>明日から職場復帰の節目ということもあり、8月に待望の長男が生まれたことについて少し触れたいと思います。彼は予定日の1日前に3000g超えで誕生し、その後2ヶ月で体重が二倍になるなど、お腹の中にいるときからずっと順調に成長してくれています。抱っこ要求や理由もなくぐずったりすることもなく本当に良い子で、もちろん頻回の授乳など育児しながらの生活は、以前とは比べ物にならないほど大変ではありますが、少し拍子抜けというか、安心した部分もあります。</p>
+<p>私たち夫婦は同い年の研究者同士で、分野は少しかすっている程度でお互いがかなり独立に近い立ち位置なのもあり、中々すり合わせに苦労を重ねてきました。2022年まで私はアメリカで単身赴任状態でポスドクをしていましたが、特にニューヨークではコロナ禍への突入も早く日本との行き来も想定よりはるかに難しくなりました。行く前には近くにこんな大学もあるよ、こんな研究している人もいるよと手を変え品を変え勧誘していましたが、最終的に夫が数ヶ月留学したのは欧州で完全に作戦は失敗しました。ただ、近くの研究所でセミナーついでに長期滞在したり、新婚旅行と称して日本からは行きづらい場所へもいろいろ行くことができて良かったです。</p>
+<p>帰国後もポジションの関係で国内別居状態ではありましたが、夫がその点ではとても歩み寄ってくれて、色々と奇跡的なタイミングでした。11月からは職場で提供されている一時保育を利用しつつ、職場に復帰し、12月からは保育園に入れる予定です。これからはプライベートの時間も大切にしつつ、仕事のペースを掴んでいければと思います。</p>
+<center>
+<img
+src="https://dl.dropboxusercontent.com/scl/fi/p6v4ga79atanezborb4qt/return.jpeg?rlkey=wrp3x51o4iavymrjgd8s3ykwl&amp;st=7l9dhb0e&amp;dl=0" />
+</center>
+<p><br></p>
 </div>
 </div>
-<div id="section-2" class="section level3">
-<h3>2023.12.21</h3>
+<div id="出版" class="section level3">
+<h3>2023.12.21 出版</h3>
 <div
 id="一卵性四つ子のアルマジロの転写パターンに残る発達過程の確率的ノイズの検出"
 class="section level4">
@@ -418,6 +503,8 @@ class="section level4">
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -450,6 +537,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
