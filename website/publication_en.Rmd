@@ -9,6 +9,8 @@ output:
 ---
 
 ### Journal article
+* "RNAelem: An Algorithm for Discovering Sequence-Structure Motifs in RNA Bound by RNA-Binding Proteins." Miyake H, <u>Kawaguchi RK</u>, Kiryu H. *Bioinformatics Advances*, vbae144, 2024.
+[[link]](https://doi.org/10.1093/bioadv/vbae144)
 * "The transcriptional legacy of developmental stochasticity." Ballouz S†, <u>**Kawaguchi RK**†</u>, Pena MT, Fischer S, Crow M, French L, Knight FM, Adams LB, Gillis J. *Nature Communications*, 14, 7226, 2023. [[link]](https://www.nature.com/articles/s41467-023-43024-5) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2019.12.11.873265v1)
 * "Comprehensive in virio structure probing analysis of the influenza A virus identifies functional RNA structures involved in viral genome replication." Takizawa N\*, <u>**Kawaguchi RK**</u>. *Computational and Structural Biotechnology Journal*, 21:5259-72, 2023. [[link]](https://www.sciencedirect.com/science/article/pii/S2001037023003926)[[bioRxiv]](https://www.biorxiv.org/content/10.1101/2020.03.05.975870v2)
 * "Learning single-cell chromatin accessibility profiles using meta-analytic marker genes." <u>**Kawaguchi RK**</u>, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J. *Briefings in Bioinformatics*, bbac541, 2022. [[link]](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac541/6957249) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.04.01.438068v2)

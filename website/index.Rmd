@@ -9,7 +9,7 @@ title: "Welcome to Kawaguchi Lab"
 ![](figures/general_figures/lab_intro.png)
 </p>
 
-京都大学iPS細胞研究所（CiRA）の河口研究室は、情報生命科学・バイオインフォマティクスを駆使して、細胞の普遍的な生命現象の理解を目指す研究室です。
+東京大学大学院薬学系研究科と京都大学iPS細胞研究所（CiRA）に所属する河口研究室は、情報生命科学・バイオインフォマティクスを駆使して、細胞の普遍的な生命現象の理解を目指す研究室です。
 
 
 # {.row}
@@ -20,10 +20,21 @@ title: "Welcome to Kawaguchi Lab"
 </div>
 
 
+
 <br/>
 <br/>
 
+<center>
+ ![](https://dl.dropboxusercontent.com/scl/fi/7kjo1w3ev4x22jpalfqpr/occupied.jpg?rlkey=gql0fw8qj5ui423t9pdkjb403&st=q8eo7cw0&dl=0)
+</center>
+
+
+
 ## 新着情報 {.col-md-9}
+- 2024.12.13 写真アップデート
+- 2024.12.04 所属アップデート
+- 2024.07.04 Seminarアップデート
+- 2024.03.26 Membersアップデート
 - 2024.02.13 CiRAインターンシップ募集開始
 - 2023.12.08 Seminarアップデート
 - 2023.11.13 Publication/Seminar/Linkアップデート
@@ -35,5 +46,3 @@ title: "Welcome to Kawaguchi Lab"
 - 2023.03.08 Informationアップデート
 - 2022.12.10 Publicationアップデート
 - 2022.09.22 サイト作成
-
-

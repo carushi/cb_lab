@@ -18,23 +18,32 @@ ink-citations: yes
 eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 ```
 
-### スタッフ
+<br>
+<br>
 
-- 森本 由起（秘書・技術補佐）
+### スタッフ
 - 大久保 周子（外来研究員）
 
 ### 学生
 
-- Jane Doe
+- 徐 锐琪（大学院生）
 
 ### 卒業生
 
-- Mona Sheta （外来研究員）
-- 伊藤 恵理（インターン）
-- ツッカ タドウ（インターン）
-- 崔 岩（インターン）
+- Mona Sheta （外来研究員）2023 夏季
+- 伊藤 恵理（インターン）2023 夏季
+- ツッカ タドウ（インターン）2023 夏季
+- 崔 岩（インターン）2023 夏季
+- 森本 由起（秘書・技術補佐）2023-2024
 
 
 ## {.col-md-4 }
 
 ![](figures/members/kawaguchi.jpeg)
+
+
+![Lab member](https://dl.dropboxusercontent.com/scl/fi/u3gcgm98qqilclg3jk4mc/lab_members.jpg?rlkey=mm9spz0pwmq00qjk4nt7pmcuw&st=7tiubrfg&dl=0)
+
+![2023 intern](https://dl.dropboxusercontent.com/scl/fi/q9xyw535duhidxyj7t461/2023_intern.png?rlkey=ev940mdknsqilu9xus5ri1u95&st=csfuiozf&dl=0)
+
+![Lab member!?](https://dl.dropboxusercontent.com/scl/fi/kdfwa5sr2nymg8npq80xg/seal.jpeg?rlkey=f9vk00y5ovmigti5bhwsecchl&dl=0)

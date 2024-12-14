@@ -21,22 +21,31 @@ ink-citations: yes
 ```{r, echo=FALSE}
 eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 ```
+<br>
+<br>
 
 ### Staffs
 
-- Yuki Morimoto (Technician and secretary)
 - Chikako Okubo  (Visiting researcher)
 
 ### Students
 
-- Jane Doe
+- Ruiqi Xu (Grad student)
 
 ### Alumni
-- Eri Ito (Summer intern)
-- [Thadoe Thukha (Summer intern)](https://www.cira.kyoto-u.ac.jp/e/pressrelease/newsletter/231108-000001.html)
-- Yan Cui (Summer intern)
-- Mona Sheta (Visiting scholar)
+- Eri Ito (Summer intern), 2023 summer.
+- [Thadoe Thukha (Summer intern)](https://www.cira.kyoto-u.ac.jp/e/pressrelease/newsletter/231108-000001.html), 2023 summer.
+- Yan Cui (Summer intern), 2023 summer.
+- Mona Sheta (Visiting scholar), 2023 summer.
+- Yuki Morimoto (Technician and secretary), 2023-2024.
 
 ## {.col-md-4 }
 
 ![](figures/members/kawaguchi.jpeg)
+
+
+![Lab member](https://dl.dropboxusercontent.com/scl/fi/u3gcgm98qqilclg3jk4mc/lab_members.jpg?rlkey=mm9spz0pwmq00qjk4nt7pmcuw&st=7tiubrfg&dl=0)
+
+![2023 intern](https://dl.dropboxusercontent.com/scl/fi/q9xyw535duhidxyj7t461/2023_intern.png?rlkey=ev940mdknsqilu9xus5ri1u95&st=csfuiozf&dl=0)
+
+![Lab member!?](https://dl.dropboxusercontent.com/scl/fi/kdfwa5sr2nymg8npq80xg/seal.jpeg?rlkey=f9vk00y5ovmigti5bhwsecchl&dl=0)

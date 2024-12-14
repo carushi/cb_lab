@@ -9,6 +9,12 @@ output:
 ---
 ## Kawaguchi Lab Seminar
 
+### 2024
+* 11.xx
+  * Yuichi Shichino（七野　悠一）「Local translation atlas by APEX-Ribo-Seq」
+* 05.29
+  * Kenta Horie（堀江 健太）「Establishment of hybrid characteristics in thymic mimetic cells: Integration of mTEC and a peripheral cell features」
+
 ### 2023 
 * 06.27
   * Yasuhiro Kojima (小嶋 泰弘) 「深層生成モデルによる共変量依存的細胞状態ダイナミクスの推定」
@@ -22,3 +28,19 @@ output:
   * Kentaro Tomii（富井 健太郎）「AlphaFoldのタンパク質構造モデルを利用した創薬研究等支援に向けたデータベースPoSSuMAF」
 * 12.15
   * Koji Tsuda（津田 宏治）「機械学習・AIを用いた新たな分子・物質の開発」
+  
+## Book club
+
+### 2024
+* The Art of Statistics: Learning from Data (by David Spiegelhalter)
+  * May 30, Jun 6, Jun 7
+* The Elements of Style (by William Strunk Jr. and E.B. White)
+  * Jul 4
+* Math for Deep Learning (by Ronald T. Kneusel)
+  * Postponed
+* Statistical Inference (by George Casella and Roger L. Berger)
+  * Nov
+* The Selfish Gene (by Richard Dawkins)
+  * Dec 6 and 12.
+
+![](https://dl.dropboxusercontent.com/scl/fi/gu6u7eui5t7nifc1b2ic8/book_club34.jpeg?rlkey=3lweqo640i6bbq9f9hocz1n55&dl=0)

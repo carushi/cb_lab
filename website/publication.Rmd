@@ -11,6 +11,8 @@ output:
 
 
 ### 査読付き論文
+* "RNAelem: An Algorithm for Discovering Sequence-Structure Motifs in RNA Bound by RNA-Binding Proteins." Miyake H, <u>Kawaguchi RK</u>, Kiryu H. *Bioinformatics Advances*, vbae144, 2024.
+[[link]](https://doi.org/10.1093/bioadv/vbae144)
 * "The transcriptional legacy of developmental stochasticity." Ballouz S†, <u>**Kawaguchi RK**†</u>, Pena MT, Fischer S, Crow M, French L, Knight FM, Adams LB, Gillis J. *Nature Communications*, 14, 7226, 2023. [[link]](https://www.nature.com/articles/s41467-023-43024-5) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2019.12.11.873265v1)[[essay]](https://carushi.github.io/cb_lab/essay.html)
 * "Comprehensive in virio structure probing analysis of the influenza A virus identifies functional RNA structures involved in viral genome replication." Takizawa N\*, <u>**Kawaguchi RK**</u>. *Computational and Structural Biotechnology Journal*, 21:5259-72, 2023. 
 [[link]](https://www.sciencedirect.com/science/article/pii/S2001037023003926)[[bioRxiv]](https://www.biorxiv.org/content/10.1101/2020.03.05.975870v2)
@@ -28,7 +30,9 @@ output:
 * RNA structure prediction Edited by **Kawaguchi RK** and Iwakiri J. Methods in molecular biology, Humana New York, 2023. [[link]](https://doi.org/10.1007/978-1-0716-2768-6)
 
 ### 口頭発表
-* 2023.12.10: 第二回GTPハッカソン（予定） 河口 理紗
+* 2023.02.09: iPSアカデミアジャパン研究助成研究発表会 「iPS細胞の分化過程における転写因子のパイオニアネス変化予測」　河口 理紗
+* 2023.12.16: Commemorative Symposium for the 39th International Prize for Biology "Deciphering epigenetic landscapes for variations in gene regulatory networks in mammals" Risa K Kawaguchi
+* 2023.12.10: 第二回GTPハッカソン「一細胞レベルのゆらぎにより細胞集団の“個性”が生み出されるメカニズムに迫る」 河口 理紗
 * 2023.12.07: 日本分子生物学会第64回年会 シンポジウム 「網羅的一細胞トランスクリプトームから見る細胞種特異的なGTPセンサー分子による代謝制御の活性推定」河口 理紗[[link]](https://www2.aeplan.co.jp/mbsj2023/)
 * 2023.11.30: CiRA international symposium（Invited）"Prediction of epigenetic regulatory varitaion at single-cell level and its applications for stem cell biology" 河口 理紗[[link]](https://cscenter.co.jp/cira2023/)
 * 2023.11.15: NGS EXPO 2023（招待講演）河口　理紗 [[link]](https://ngsexpo55.sakura.ne.jp/expo2023/index.html#home)

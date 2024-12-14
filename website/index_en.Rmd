@@ -9,8 +9,7 @@ title: "Welcome to Kawaguchi Lab"
 ![](figures/general_figures/lab_intro_en.png)
 </p>
 
-Computational biology lab at iPS Cell Research and Application (CiRA), Kyoto University, towards understanding a ubiquitous mechanism to regulate intra- and inter-cellullar variations.
-
+Computational biology lab at Graduate School of Pharmaceutical Sciences, the University of Tokyo and iPS Cell Research and Application (CiRA), Kyoto University, towards understanding a ubiquitous mechanism to regulate intra- and inter-cellular variations.
 
 # {.row}
 
@@ -21,10 +20,19 @@ Computational biology lab at iPS Cell Research and Application (CiRA), Kyoto Uni
 Please contact me via *rkawaguchi-g at cira.kyoto-u.ac.jp* if you have an interest. We would like to welcome <a href="https://www.cira.kyoto-u.ac.jp/e/education/internship.html">research interns</a> and JSPS research fellows for collaboration as well.
 </div>
 </div>
+
+
 <br/>
 <br/>
 
+<center>
+ ![](https://dl.dropboxusercontent.com/scl/fi/7kjo1w3ev4x22jpalfqpr/occupied.jpg?rlkey=gql0fw8qj5ui423t9pdkjb403&st=q8eo7cw0&dl=0)
+</center>
+
 ## History {.col-md-9}
+- 2024.12.04 Updated.
+- 2024.07.04 Updated.
+- 2024.03.26 Updated.
 - 2024.02.13 CiRA internship application is open.
 - 2023.11.13 Updated.
 - 2023.10.30 Updated.
