@@ -26,11 +26,15 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 
 ### Staffs
 
-- Chikako Okubo  (Visiting researcher)
+- Chikako Okubo  (Visiting researcher at KU)
 
 ### Students
 
-- Ruiqi Xu (Grad student)
+- Ruiqi Xu (Grad student at KU)
+- Kota Sasaki (Undergrad at UTokyo)
+- Hinata Nakano (Undergrad at UTokyo)
+- Rui Xiao (Summer intern)
+- Mahiro Nikami (Summer intern)
 
 ### Alumni
 - Eri Ito (Summer intern), 2023 summer.

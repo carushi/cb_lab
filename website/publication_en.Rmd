@@ -9,6 +9,8 @@ output:
 ---
 
 ### Journal article
+* "A feedback amplifier circuit with Notch and E2A orchestrates T-cell fate and suppresses the innate lymphoid cell lineages during thymic ontogeny." 
+Miyazaki K, Horie K, Watanabe H, Hidaka R, Hayashi R, Hayatsu N, Fujiwara K, Kuwata R, Uehata T, Ochi Y, Takenaka M, <u>**Kawaguchi RK**</u>, Ikuta K, Takeuchi O, Ogawa S, Hozumi K, Holländer GA, Kondoh G, Akiyama T, Miyazaki M.*Genes Dev*, gad.352111.124.abstract, 2025. [[link]](https://genesdev.cshlp.org/content/early/2025/02/04/gad.352111.124.abstract)
 * "RNAelem: An Algorithm for Discovering Sequence-Structure Motifs in RNA Bound by RNA-Binding Proteins." Miyake H, <u>Kawaguchi RK</u>, Kiryu H. *Bioinformatics Advances*, vbae144, 2024.
 [[link]](https://doi.org/10.1093/bioadv/vbae144)
 * "The transcriptional legacy of developmental stochasticity." Ballouz S†, <u>**Kawaguchi RK**†</u>, Pena MT, Fischer S, Crow M, French L, Knight FM, Adams LB, Gillis J. *Nature Communications*, 14, 7226, 2023. [[link]](https://www.nature.com/articles/s41467-023-43024-5) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2019.12.11.873265v1)
