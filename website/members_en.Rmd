@@ -33,10 +33,10 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 - Ruiqi Xu (Grad student at KU)
 - Kota Sasaki (Undergrad at UTokyo)
 - Hinata Nakano (Undergrad at UTokyo)
-- Rui Xiao (Summer intern)
-- Mahiro Nikami (Summer intern)
 
 ### Alumni
+- Rui Xiao (Summer intern), 2025 summer.
+- Mahiro Nikami (Summer intern), 2025 summer.
 - Eri Ito (Summer intern), 2023 summer.
 - [Thadoe Thukha (Summer intern)](https://www.cira.kyoto-u.ac.jp/e/pressrelease/newsletter/231108-000001.html), 2023 summer.
 - Yan Cui (Summer intern), 2023 summer.

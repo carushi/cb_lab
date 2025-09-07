@@ -30,7 +30,11 @@ output:
   * Koji Tsuda（津田 宏治）「機械学習・AIを用いた新たな分子・物質の開発」
   
 ## Book club
-
+### 2025
+* 実験医学別冊 大規模データで困ったときに、まず図を描くことからはじめる生命科学データ解析
+ * Dec~ （予定）
+* 実験医学別冊 改訂　独習Pythonバイオ情報解析
+ * Apr to Oct
 ### 2024
 * The Art of Statistics: Learning from Data (by David Spiegelhalter)
   * May 30, Jun 6, Jun 7
