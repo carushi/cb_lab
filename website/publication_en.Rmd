@@ -9,10 +9,10 @@ output:
 ---
 
 ### Journal article
-* "Concentration-dependent formation of intersegment interactions in viral droplets of influenza A virus infected cells." Takizawa N, Higashi K, <u>**Kawaguchi RK**</u>, Gotoh Y, Hayashi T, Kurokawa K. (accepted)
-* "Multiple human enhancer RNAs contain long translated open reading frames." Vlasov PA, Ogami K, Valenzuela E, <u>**Kawaguchi RK**</u>, Jovanovic M, Manley JL. (accepted)
+* "Concentration-dependent formation of intersegment interactions in viral droplets of influenza A virus infected cells." Takizawa N, Higashi K, <u>**Kawaguchi RK**</u>, Gotoh Y, Hayashi T, Kurokawa K. *iScience*, 28(10):113606, 2025. [[link]](https://www.cell.com/iscience/fulltext/S2589-0042(25)01867-X)
+* "Multiple human enhancer RNAs contain long translated open reading frames." Vlasov PA, Ogami K, Valenzuela E, <u>**Kawaguchi RK**</u>, Jovanovic M, Manley JL. *Genes Dev*, gad.352944.125, 2025. [[link]](https://genesdev.cshlp.org/content/early/2025/09/10/gad.352944.125)
 * "A feedback amplifier circuit with Notch and E2A orchestrates T-cell fate and suppresses the innate lymphoid cell lineages during thymic ontogeny." 
-Miyazaki K, Horie K, Watanabe H, Hidaka R, Hayashi R, Hayatsu N, Fujiwara K, Kuwata R, Uehata T, Ochi Y, Takenaka M, <u>**Kawaguchi RK**</u>, Ikuta K, Takeuchi O, Ogawa S, Hozumi K, Holländer GA, Kondoh G, Akiyama T, Miyazaki M.*Genes Dev*, gad.352111.124.abstract, 2025. [[link]](https://genesdev.cshlp.org/content/early/2025/02/04/gad.352111.124.abstract)
+Miyazaki K, Horie K, Watanabe H, Hidaka R, Hayashi R, Hayatsu N, Fujiwara K, Kuwata R, Uehata T, Ochi Y, Takenaka M, <u>**Kawaguchi RK**</u>, Ikuta K, Takeuchi O, Ogawa S, Hozumi K, Holländer GA, Kondoh G, Akiyama T, Miyazaki M. *Genes Dev*, gad.352111.124.abstract, 2025. [[link]](https://genesdev.cshlp.org/content/early/2025/02/04/gad.352111.124.abstract)
 * "RNAelem: An Algorithm for Discovering Sequence-Structure Motifs in RNA Bound by RNA-Binding Proteins." Miyake H, <u>Kawaguchi RK</u>, Kiryu H. *Bioinformatics Advances*, vbae144, 2024.
 [[link]](https://doi.org/10.1093/bioadv/vbae144)
 * "The transcriptional legacy of developmental stochasticity." Ballouz S†, <u>**Kawaguchi RK**†</u>, Pena MT, Fischer S, Crow M, French L, Knight FM, Adams LB, Gillis J. *Nature Communications*, 14, 7226, 2023. [[link]](https://www.nature.com/articles/s41467-023-43024-5) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2019.12.11.873265v1)
@@ -24,6 +24,7 @@ Miyazaki K, Horie K, Watanabe H, Hidaka R, Hayashi R, Hayatsu N, Fujiwara K, Kuw
 
 
 ### Review
+* <u>**Kawaguchi Risa**</u> A 5-Minute Overview of a Landmark Paper — Žiga Avsec et al., AlphaGenome: Advancing Regulatory Variant Effect Prediction with a Unified DNA Sequence Model, Journal of IPSJ, January issue, 2026. [[link]](https://ipsj.ixsq.nii.ac.jp/records/2006361) 
 * <u>**Kawaguchi RK**</u> and Kiryu H. RNA Secondary Structure Alteration Caused by Single Nucleotide Variants. In: RNA Structure Prediction. Methods in Molecular Biology, vol 2586. Humana, New York, 2023. [[link]](https://doi.org/10.1007/978-1-0716-2768-6_7)
 * <u>**Kawaguchi RK**</u> and Kiryu H. Genome-Wide RNA Secondary Structure Prediction. In: RNA Structure Prediction. Methods in Molecular Biology, vol 2586. Humana, New York, 2023. [[link]](https://doi.org/10.1007/978-1-0716-2768-6_3)
 

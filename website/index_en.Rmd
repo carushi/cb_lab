@@ -16,7 +16,7 @@ Computational biology lab at Graduate School of Pharmaceutical Sciences, the Uni
 <div class="card">
   <div class="card-header">News</div>
   <div class="card-body">
-  We are currently recruiting graduate students. If you are interested in joining our lab, please feel free to contact me at *rkawaguchi-g at cira.kyoto-u.ac.jp*. </br>
+  We are currently recruiting graduate students. If you are interested in joining our lab, please feel free to contact me via <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_ni86GMInVAlfgEQm0EbtNpZHDLms2TVTllK7vvE-WcH7NQ/viewform">contact form</a>. </br>
   We also welcome research interns (international/domestic as CiRA research intern students and domestic Ph.D researcher as NCGT intern) and JSPS research fellows.</br>
   Below is the official information regarding entrance examinations for enrollment in the 2026 academic year:</br>
   ・Graduate school of Pharmaceutical Sciences, the University of Tokyo: <a href="https://israr.f.u-tokyo.ac.jp/en/admission/examination.html">Admission information</a> (An information session will be held on May 10.)</br>

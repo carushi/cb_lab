@@ -9,17 +9,26 @@ output:
 ---
 ## Kawaguchi Lab Seminar
 
+### 2025
+* 10.27
+  * CiRA AI day
+    * Yuichiro Yada "Data-driven disease progression modeling for neurodegenerative diseases"
+    * Jun Sese "AI as a Research Partner: Foundation Models, Generative Tools, and No-Code Platforms”
+    * Chikako Okubo
+    * Uikyu Bang
+    * Keiko Imamura
+
 ### 2024
 * 11.xx
-  * Yuichi Shichino（七野　悠一）「Local translation atlas by APEX-Ribo-Seq」
+  * Yuichi Shichino（七野　悠一）"Local translation atlas by APEX-Ribo-Seq"
 * 05.29
-  * Kenta Horie（堀江 健太）「Establishment of hybrid characteristics in thymic mimetic cells: Integration of mTEC and a peripheral cell features」
+  * Kenta Horie（堀江 健太）"Establishment of hybrid characteristics in thymic mimetic cells: Integration of mTEC and a peripheral cell features"
 
 ### 2023 
 * 06.27
-  * Yasuhiro Kojima (小嶋 泰弘) 「深層生成モデルによる共変量依存的細胞状態ダイナミクスの推定」
+  * Yasuhiro Kojima （小嶋 泰弘） 「深層生成モデルによる共変量依存的細胞状態ダイナミクスの推定」
 * 09.22
-  * Yuki Hoshino（星野 悠樹）「Academia, public sector, and business consultancy」
+  * Yuki Hoshino（星野 悠樹）"Academia, public sector, and business consultancy"
 * 10.30
   * Koki Tsuyuzaki（露崎 弘毅）「テンソル分解と最適輸送で繋ぐ異種バイオデータの統合解析」
 * 11.14
@@ -31,10 +40,11 @@ output:
   
 ## Book club
 ### 2025
-* 実験医学別冊 大規模データで困ったときに、まず図を描くことからはじめる生命科学データ解析
- * Dec~ （予定）
 * 実験医学別冊 改訂　独習Pythonバイオ情報解析
- * Apr to Oct
+  * Apr to Oct
+* 実験医学別冊 大規模データで困ったときに、まず図を描くことからはじめる生命科学データ解析
+  * Dec~ （予定）
+
 ### 2024
 * The Art of Statistics: Learning from Data (by David Spiegelhalter)
   * May 30, Jun 6, Jun 7

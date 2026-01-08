@@ -22,6 +22,7 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 <br>
 
 ### スタッフ
+- 隅内　千賀子（東大・アシスタント）
 - 大久保 周子（京大・外来研究員）
 
 ### 学生

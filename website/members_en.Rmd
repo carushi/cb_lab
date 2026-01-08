@@ -25,7 +25,7 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 <br>
 
 ### Staffs
-
+- Chikako Sumiuchi (Assistant)
 - Chikako Okubo  (Visiting researcher at KU)
 
 ### Students

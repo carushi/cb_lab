@@ -11,10 +11,10 @@ output:
 
 
 ### 査読付き論文
-* "Concentration-dependent formation of intersegment interactions in viral droplets of influenza A virus infected cells." Takizawa N, Higashi K, <u>**Kawaguchi RK**</u>, Gotoh Y, Hayashi T, Kurokawa K. (accepted)
-* "Multiple human enhancer RNAs contain long translated open reading frames." Vlasov PA, Ogami K, Valenzuela E, <u>**Kawaguchi RK**</u>, Jovanovic M, Manley JL. (accepted)
+* "Concentration-dependent formation of intersegment interactions in viral droplets of influenza A virus infected cells." Takizawa N, Higashi K, <u>**Kawaguchi RK**</u>, Gotoh Y, Hayashi T, Kurokawa K. *iScience*, 28(10):113606, 2025. [[link]](https://www.cell.com/iscience/fulltext/S2589-0042(25)01867-X)
+* "Multiple human enhancer RNAs contain long translated open reading frames." Vlasov PA, Ogami K, Valenzuela E, <u>**Kawaguchi RK**</u>, Jovanovic M, Manley JL. *Genes Dev*, gad.352944.125, 2025. [[link]](https://genesdev.cshlp.org/content/early/2025/09/10/gad.352944.125)
 * "A feedback amplifier circuit with Notch and E2A orchestrates T-cell fate and suppresses the innate lymphoid cell lineages during thymic ontogeny." 
-Miyazaki K, Horie K, Watanabe H, Hidaka R, Hayashi R, Hayatsu N, Fujiwara K, Kuwata R, Uehata T, Ochi Y, Takenaka M, <u>**Kawaguchi RK**</u>, Ikuta K, Takeuchi O, Ogawa S, Hozumi K, Holländer GA, Kondoh G, Akiyama T, Miyazaki M.*Genes Dev*, gad.352111.124.abstract, 2025. [[link]](https://genesdev.cshlp.org/content/early/2025/02/04/gad.352111.124.abstract)
+Miyazaki K, Horie K, Watanabe H, Hidaka R, Hayashi R, Hayatsu N, Fujiwara K, Kuwata R, Uehata T, Ochi Y, Takenaka M, <u>**Kawaguchi RK**</u>, Ikuta K, Takeuchi O, Ogawa S, Hozumi K, Holländer GA, Kondoh G, Akiyama T, Miyazaki M. *Genes Dev*, gad.352111.124.abstract, 2025. [[link]](https://genesdev.cshlp.org/content/early/2025/02/04/gad.352111.124.abstract)
 * "RNAelem: An Algorithm for Discovering Sequence-Structure Motifs in RNA Bound by RNA-Binding Proteins." Miyake H, <u>Kawaguchi RK</u>, Kiryu H. *Bioinformatics Advances*, vbae144, 2024.
 [[link]](https://doi.org/10.1093/bioadv/vbae144)
 * "The transcriptional legacy of developmental stochasticity." Ballouz S†, <u>**Kawaguchi RK**†</u>, Pena MT, Fischer S, Crow M, French L, Knight FM, Adams LB, Gillis J. *Nature Communications*, 14, 7226, 2023. [[link]](https://www.nature.com/articles/s41467-023-43024-5) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2019.12.11.873265v1)[[essay]](https://carushi.github.io/cb_lab/essay.html)
@@ -27,6 +27,7 @@ Miyazaki K, Horie K, Watanabe H, Hidaka R, Hayashi R, Hayatsu N, Fujiwara K, Kuw
 
 
 ### 総説
+* **Kawaguchi R.** 5分で分かる!? 有名論文ナナメ読み：Žiga Avsec et al. : AlphaGenome : Advancing Regulatory Variant Effect Prediction with a Unified DNA Sequence Model, Journal of IPSJ, January issue, 2026. [[link]](https://ipsj.ixsq.nii.ac.jp/records/2006361)
 * **Kawaguchi RK** and Kiryu H. RNA Secondary Structure Alteration Caused by Single Nucleotide Variants. In: RNA Structure Prediction. Methods in Molecular Biology, vol 2586. Humana, New York, 2023. [[link]](https://doi.org/10.1007/978-1-0716-2768-6_7)
 * **Kawaguchi RK** and Kiryu H. Genome-Wide RNA Secondary Structure Prediction. In: RNA Structure Prediction. Methods in Molecular Biology, vol 2586. Humana, New York, 2023. [[link]](https://doi.org/10.1007/978-1-0716-2768-6_3)
 
@@ -34,10 +35,21 @@ Miyazaki K, Horie K, Watanabe H, Hidaka R, Hayashi R, Hayatsu N, Fujiwara K, Kuw
 * RNA structure prediction Edited by **Kawaguchi RK** and Iwakiri J. Methods in molecular biology, Humana New York, 2023. [[link]](https://doi.org/10.1007/978-1-0716-2768-6)
 
 ### 口頭発表
-* 2023.02.09: iPSアカデミアジャパン研究助成研究発表会 「iPS細胞の分化過程における転写因子のパイオニアネス変化予測」　河口 理紗
+* 2025.12.04: 日本分子生物学会第48回年会 "Data-driven multi-omics analysis to reveal the landscape of GTP sensor regulatory network that reconciles the imbalance of metabolism" Risa K Kawaguchi（録画発表）
+* 2025.10.02: 筑波会議 "Decoding genome-encoded intrinsic structures and regulatory networks" Risa K Kawaguchi
+* 2025.07.10: ACMB-JSMB "Decoding the Role of Epigenetic Fluctuation in Stochastic Cell and Individual State Transitions" Risa K Kawaguchi
+* 2025.06.28: トヨタコンポン研究所 探査プロジェクト 未踏探索の原理と限界 公開シンポジウム 「計算生物学とAIで解き明かす生命の摂動 ―不均一な細胞集団が生み出す確率的遷移過程―」 河口 理紗
+* 2025.06.06: デジタル進化生物セミナー 「四つ子のアルマジロと探る確率的カナリゼーション —ゆらぎが生み出す個性」 河口 理紗
+* 2025.03.16: 第4回 Digital Pharmacology Conference 「AI でオミクス情報を予測する統一モデルは作れるか：配列依存的制御を超えた確率論的ゆらぎ」河口 理紗
+* 2025.03.15: IPSJ-ONE「ゲノムで決まること・決まらないこと―ゲノム配列からエピゲノムを予測する人工知能」 河口 理紗
+* 2025.06-10: 産休・育休
+* 2024.06.22: 57th Annual Meeting of the Japanese Society of Developmental Biologists "The transcriptional legacy of developmental stochasticity" Risa K Kawaguchi
+* 2024.02.22: 未踏探索における個性と集団の役割（クローズドシンポジウム）「確率的細胞運命の運河化と可塑性―一卵性四つ子のアルマジロの多様性」 河口 理紗
+"確率的細胞運命の運河化と可塑性―一卵性四つ子のアルマジロの多様性"
+* 2024.02.09: iPSアカデミアジャパン研究助成研究発表会 「iPS細胞の分化過程における転写因子のパイオニアネス変化予測」　河口 理紗
 * 2023.12.16: Commemorative Symposium for the 39th International Prize for Biology "Deciphering epigenetic landscapes for variations in gene regulatory networks in mammals" Risa K Kawaguchi
 * 2023.12.10: 第二回GTPハッカソン「一細胞レベルのゆらぎにより細胞集団の“個性”が生み出されるメカニズムに迫る」 河口 理紗
-* 2023.12.07: 日本分子生物学会第64回年会 シンポジウム 「網羅的一細胞トランスクリプトームから見る細胞種特異的なGTPセンサー分子による代謝制御の活性推定」河口 理紗[[link]](https://www2.aeplan.co.jp/mbsj2023/)
+* 2023.12.07: 日本分子生物学会第46回年会 シンポジウム 「網羅的一細胞トランスクリプトームから見る細胞種特異的なGTPセンサー分子による代謝制御の活性推定」河口 理紗[[link]](https://www2.aeplan.co.jp/mbsj2023/)
 * 2023.11.30: CiRA international symposium（Invited）"Prediction of epigenetic regulatory varitaion at single-cell level and its applications for stem cell biology" 河口 理紗[[link]](https://cscenter.co.jp/cira2023/)
 * 2023.11.15: NGS EXPO 2023（招待講演）河口　理紗 [[link]](https://ngsexpo55.sakura.ne.jp/expo2023/index.html#home)
 * 2023.10.07: 生命情報科学若手の会第15回年会（招待講演）河口 理紗
