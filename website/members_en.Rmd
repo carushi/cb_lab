@@ -30,11 +30,14 @@ eval("Risa ~ curiosity + computer + bio + patience + 0.1 serendipity")
 
 ### Students
 
-- Ruiqi Xu (Grad student at KU)
-- Kota Sasaki (Undergrad at UTokyo)
-- Hinata Nakano (Undergrad at UTokyo)
+- Ruiqi Xu (PhD course at UTokyo)
+- Kota Sasaki (Master course at UTokyo)
+- Lan Zifan (Master course at UTokyo)
+- Ikoma Kudo (Undergrat at UTokyo)
+- Coming Soon
 
 ### Alumni
+- Hinata Nakano (BSc at UTokyo), 2026 spring.
 - Rui Xiao (Summer intern), 2025 summer.
 - Mahiro Nikami (Summer intern), 2025 summer.
 - Eri Ito (Summer intern), 2023 summer.
